@@ -26,10 +26,10 @@
   }
   
 
-  .view-button {
+  .view-button img {
     transition: transform 0.3s ease-in-out;
 }
 
-.view-button:hover {
-    transform: scaleR(1.1);
+.view-button:hover img {
+    transform: scaleX(1.1);
 }

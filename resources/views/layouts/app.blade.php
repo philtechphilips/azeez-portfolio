@@ -12,10 +12,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="{{ asset('styles/global.css') }}">
-    <link rel="icon" type="image/png" href="{{ asset("Asset 4@4x 1.png") }}" sizes="any">
+    <link rel="icon" type="image/png" href="{{ asset('Asset 4@4x 1.png') }}" sizes="any">
     @vite('resources/css/app.css')
 
     <!-- Styles -->
@@ -31,7 +31,20 @@
     </div>
 
 
+    {{-- Toggle Mobile Navigation  --}}
+    <script>
+        const toggleButton = document.querySelectorAll('.menuButton');
+        const menu = document.getElementById('menu');
 
+        toggleButton.forEach(function(button) {
+            button.addEventListener('click', function() {
+                menu.classList.toggle('translate-x-[500px]');
+            })
+        });
+    </script>
+    {{-- Toggle Mobile Navigation --}}
+
+    {{-- Scroll To Top --}}
     <script>
         function scrollToTop() {
             window.scrollTo({
@@ -40,6 +53,14 @@
             });
         }
     </script>
+    {{-- Scroll To Top --}}
+
+    {{-- Animate on scroll --}}
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    {{-- Animate on scroll --}}
     @yield('script')
 </body>
 
