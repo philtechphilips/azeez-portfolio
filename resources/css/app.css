@@ -1,4 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+
+.image-ai img {
+    transition: opacity 0.5s ease;
+    opacity: 1;
+}
+
+.hero:hover .image-ai img {
+    opacity: 1;
+}
+
+
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-5px);
+    }
+  }
+  
+
+  .view-button {
+    transition: transform 0.3s ease-in-out;
+}
+
+.view-button:hover {
+    transform: scaleR(1.1);
+}
