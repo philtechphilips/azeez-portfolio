@@ -5,7 +5,7 @@
     @include('includes.navbar')
 
     <section
-        class="flex flex-col-reverse md:flex-row items-center justify-center md:justify-between md:px-28 px-5 md:gap-48 gap-10 cursor-pointer pt-5 pb-20 hero">
+        class="flex flex-col md:flex-row items-center justify-center md:justify-between md:px-28 px-5 md:gap-48 gap-10 cursor-pointer pt-5 pb-20 hero">
         <div class="image-ai" class="md:w-[515px] h-[586px]">
             <img src="{{ asset('image 11.png') }}" class="md:w-[515px] md:h-[586px]">
         </div>
@@ -42,7 +42,7 @@
                     <h1 class="text-3xl font-medium">Post office</h1>
                     <p class="text-[#A0A09F]">Lead UI Designer, UX Designer, Design system expert</p>
                     <p>Comprehensive design system for a front office ePos solution establishing core principles.</p>
-                    <a href="/hsbc" onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
+                    <a href="/post-office" onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
                         class="view-button flex items-center cursor-pointer bg-black rounded-full text-white px-3 py-2 gap-1 w-fit mt-6">
                         <p>Discover</p>
                         <img src="{{ asset('arrow short.svg') }}">
@@ -51,7 +51,7 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('pro-2.png') }}" class="w-[510px]">
+                <img src="{{ asset('Group 11.png') }}" class="w-[510px]">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium">M&G</h1>
                     <p class="text-[#A0A09F] font-light">Lead Designer</p>

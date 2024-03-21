@@ -66,7 +66,7 @@
         </div>
     </section>
 
-    <section class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 mt-20">
+    <section class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 md:mt-20">
         <div class="mb-4">
             <h1 class="text-[#262626] text-2xl font-semibold text-center md:text-left">Context</h1>
         </div>
@@ -110,7 +110,7 @@
         <img src="{{ asset('image 4.png') }}">
     </section>
 
-    <section class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 md:pt-40 mt-20">
+    <section class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 md:pt-20">
         <div class="mb-4">
             <h1 class="text-[#262626] text-2xl font-semibold text-center md:text-left">Challenge Encountered</h1>
         </div>
@@ -154,7 +154,7 @@
     </section>
 
     <section class="w-full flex flex-col items-center justify-center">
-        <div class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between md:pb-20 pt-40">
+        <div class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
             <div class="mb-4">
             </div>
 
@@ -211,7 +211,7 @@
     </section>
 
     <section class="w-full flex flex-col items-center justify-center">
-        <div class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between md:pb-20 pt-40">
+        <div class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between md:pb-20 pt-20">
             <div class="mb-4">
                 <h1 class="text-[#262626] text-2xl font-semibold text-center md:text-left">Outcome</h1>
             </div>
@@ -227,7 +227,7 @@
         <img src="{{ asset('post-office-project.png') }}" class="md:w-[785px] w-[350px]">
     </section>
 
-    <section class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 md:pt-40 mt-20">
+    <section class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 md:pt-20 mt-20">
         <div class="mb-4">
             <h1 class="text-[#262626] text-2xl font-semibold text-center md:text-left">Takeaways</h1>
         </div>

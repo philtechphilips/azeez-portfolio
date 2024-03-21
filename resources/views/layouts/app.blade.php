@@ -4,8 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>{{ getenv('APP_NAME') }}</title>
-    <meta name="description"
-        content="UI/ Visual Designer">
+    <meta name="description" content="UI/ Visual Designer">
     <meta name="keywords" content=".">
     <meta name="robots" content="index, follow">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,11 +12,10 @@
 
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link rel="stylesheet" href="{{ asset('styles/global.css') }}">
-    <link rel="icon" type="image/png" href="{{ asset('assets/icon.png') }}" sizes="any">
+    <link rel="icon" type="image/png" href="{{ asset("Asset 4@4x 1.png") }}" sizes="any">
     @vite('resources/css/app.css')
 
     <!-- Styles -->
@@ -32,6 +30,16 @@
         </main>
     </div>
 
+
+
+    <script>
+        function scrollToTop() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
+    </script>
     @yield('script')
 </body>
 
