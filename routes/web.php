@@ -24,3 +24,7 @@ Route::get('/about', function () {
 Route::get('/post-office', function () {
     return view('post-office');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
