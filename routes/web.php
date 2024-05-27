@@ -1,5 +1,6 @@
 <?php
 
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,6 +24,10 @@ Route::get('/about', function () {
 
 Route::get('/post-office', function () {
     return view('post-office');
+});
+
+Route::get('/hsbc', function () {
+    return view('hsbc');
 });
 
 Auth::routes();

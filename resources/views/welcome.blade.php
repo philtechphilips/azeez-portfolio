@@ -24,7 +24,7 @@
 
         <div class="flex flex-wrap gap-4 justify-center gap-y-10">
             <div class="w-[510px]">
-                <img src="{{ asset('pro-1.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
+                <img src="{{ asset('hsbc.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">HSBC
                     </h1>
@@ -43,7 +43,7 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('pro-2.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
+                <img src="{{ asset('post-office.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Post
                         office</h1>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('Group 11.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
+                <img src="{{ asset('Group 112.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">M&G
                     </h1>
@@ -81,12 +81,11 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('pro-2.png') }}" class="w-[510px]" data-aos="fade-up" data-aos-duration="800">
+                <img src="{{ asset('shark.png') }}" class="w-[510px]" data-aos="fade-up" data-aos-duration="800">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                        Vodafone</h1>
-                    <p class="text-[#A0A09F]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Lead UI
-                        Designer, UX Designer</p>
+                        Shark Ninja</h1>
+                    <p class="text-[#A0A09F]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Senior UI Designer</p>
                     <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                         Global component harmonisation to ensure the development of
                         user-friendly interactions in accordance with best standards.
