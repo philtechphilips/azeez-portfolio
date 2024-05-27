@@ -71,7 +71,7 @@
                         ensure the development of
                         user-friendly interactions in accordance with best standards.
                     </p>
-                    <a data-aos="fade-up" data-aos-duration="800" data-aos-duration="400" href="/hsbc"
+                    <a data-aos="fade-up" data-aos-duration="800" data-aos-duration="400" href="/m-and-g"
                         onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
                         class="view-button flex items-center cursor-pointer bg-black rounded-full text-white px-3 py-2 gap-1 w-fit mt-6">
                         <p>Discover</p>

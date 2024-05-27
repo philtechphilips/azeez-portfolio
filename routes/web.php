@@ -30,6 +30,10 @@ Route::get('/hsbc', function () {
     return view('hsbc');
 });
 
+Route::get('/m-and-g', function () {
+    return view('m-and-g');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

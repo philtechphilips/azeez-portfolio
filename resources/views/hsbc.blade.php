@@ -33,7 +33,9 @@
         <img src="{{ asset('hsbc-bg.png') }}" class="w-fit h-full absolute right-0">
 
     </section>
-    <section class="w-full bg-[#000] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
+
+
+    <section class="w-full bg-[#000] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20 md:pt-56">
         <div class="mb-4">
             <h1 class="text-[#fff] text-2xl font-semibold text-center md:text-left font-[Inter]" data-aos="fade-up"
                 data-aos-duration="1000">Role</h1>
