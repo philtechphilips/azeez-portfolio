@@ -2,6 +2,11 @@
 
 @section('content')
     <section class="w-full h-[736px] relative md:px-48 px-5 z-50" style="background-image: url('{{ asset('bg.png') }}');">
+        <a href="/" class="flex pt-20 items-center gap-3">
+            <img src="{{ asset("back-arrow.svg") }}" alt="">
+            <p class="text-white font-medium text-xl">Back</p>
+        </a>
+
         <div class="absolute top-48 right-0 md:left-48 left-5 z-[1000]">
             <h1 class="text-white z-[1000] font-semibold text-4xl mb-12 font-[Inter]" data-aos="fade-up">Post office</h1>
 
