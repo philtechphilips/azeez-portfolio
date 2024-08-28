@@ -2,7 +2,7 @@
 
 @section('content')
     <section class="w-full h-[730px] relative md:px-48 px-5 z-50 bg-black">
-        <a href="/" class="flex pt-20 items-center gap-3">
+        <a href="/" class="flex relative z-[100] pt-20 items-center gap-3">
             <img src="{{ asset("back-arrow.svg") }}" alt="">
             <p class="text-white font-medium text-xl">Back</p>
         </a>
@@ -30,8 +30,8 @@
             </div>
         </div>
 
-        <img src="{{ asset('hsbc-bg.png') }}" class="w-fit h-full absolute right-0">
-
+        <img src="{{ asset('hsbc-bg.png') }}" class="w-fit h-full top-0 absolute right-0">
+        <div class="w-full absolute top-0 right-0 left-0  w-full h-[736px] opacity-90 bg-[#080404]"></div>
     </section>
 
 

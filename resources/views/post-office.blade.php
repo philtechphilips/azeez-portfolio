@@ -1,8 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="w-full h-[736px] relative md:px-48 px-5 z-50" style="background-image: url('{{ asset('bg.png') }}');">
-        <a href="/" class="flex pt-20 items-center gap-3">
+    <section class="w-full h-[736px] relative md:px-48 px-5 z-50">
+        <a href="/" class="flex relative pt-20 z-[1000] items-center gap-3">
             <img src="{{ asset("back-arrow.svg") }}" alt="">
             <p class="text-white font-medium text-xl">Back</p>
         </a>
@@ -32,9 +32,11 @@
         </div>
 
 
-        <img class="absolute top-0 right-0 left-0  w-full h-[736px] z-0" src="{{ asset('Rectangle 8.png') }}">
-
+        <img class="absolute top-0 right-0 left-0  w-full h-[736px] z-0"  src="{{ asset('post-office-bg.png') }}">
+        <div class="w-full absolute top-0 right-0 left-0  w-full h-[736px] opacity-90" style="background-image: linear-gradient(to right bottom, #010413, #080a1c, #0d1024, #10142c, #141735);');"></div>
     </section>
+
+    
     <section class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 mt-20">
         <div class="mb-4">
             <h1 class="text-[#262626] text-2xl font-semibold text-center md:text-left font-[Inter]" data-aos="fade-up"
