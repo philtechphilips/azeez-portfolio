@@ -4,27 +4,11 @@
 @section('content')
     @include('includes.navbar')
 
-    <section
-        class="flex flex-col md:flex-row items-center justify-center md:justify-between md:px-28 px-5 md:gap-48 gap-10 cursor-pointer pt-5 pb-20 hero">
-        <div class="image-ai" class="md:w-[515px] h-[586px]">
-            <img src="{{ asset('image 11.png') }}" data-aos="fade-right" data-aos-duration="800"
-                class="md:w-[515px] md:h-[586px]">
-        </div>
-        <div class="w-[342px] h-[373.54px] animate-bounce infinite">
-            <img src="{{ asset('image 12.png') }}" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200"
-                class="md:w-[342px] md:h-[373.54px]">
-        </div>
-    </section>
-
-    <section class="flex flex-col justify-center md:px-28 px-5 pb-28">
-        <div class="flex flex-col items-center justify-center gap-3 mb-8 w-full">
-            <h1 class="font-semibold">Selected work</h1>
-            <img src="{{ asset('down.svg') }}" class="animate-bounce infinite">
-        </div>
-
+    <section class="flex flex-col justify-center md:px-28 px-5 pb-60 pt-16">
         <div class="flex flex-wrap gap-4 justify-center gap-y-10">
             <div class="w-[510px]">
-                <img src="{{ asset('hsbc-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px] border rounded-3xl border-black">
+                <img src="{{ asset('hsbc-home.png') }}" data-aos="fade-up" data-aos-duration="800"
+                    class="w-[510px] border rounded-3xl border-black">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">HSBC
                     </h1>
@@ -43,7 +27,8 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('post-office-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px] border rounded-3xl border-black">
+                <img src="{{ asset('post-office-home.png') }}" data-aos="fade-up" data-aos-duration="800"
+                    class="w-[510px] border rounded-3xl border-black">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Post
                         office</h1>
@@ -85,7 +70,8 @@
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         Shark Ninja</h1>
-                    <p class="text-[#A0A09F]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Senior UI Designer</p>
+                    <p class="text-[#A0A09F]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">Senior UI
+                        Designer</p>
                     <p data-aos="fade-up" data-aos-duration="800" data-aos-delay="300">
                         Global component harmonisation to ensure the development of
                         user-friendly interactions in accordance with best standards.
@@ -135,7 +121,7 @@
 
             if (scrollY > 10) {
                 skillImage.src = 'Frame.png';
-            }else{
+            } else {
                 skillImage.src = 'image 11.png';
             }
         });

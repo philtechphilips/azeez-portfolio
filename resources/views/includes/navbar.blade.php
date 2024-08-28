@@ -7,9 +7,9 @@
 
         <ul class="hidden md:flex items-center gap-12">
             <li class="font-bold"><a href="/work">Work</a></li>
-            <li class="font-bold"><a href="/work">Play </a></li>
+            <li class="font-bold"><a href="/play">Play </a></li>
             <li class="font-bold"><a href="/about">About</a></li>
-            <li class="font-bold"><a href="/work">Resume</a></li>
+            <li class="font-bold"><a href="/resume">Resume</a></li>
         </ul>
 
         <i class="ri-menu-2-line text-3xl md:hidden flex menuButton"></i>

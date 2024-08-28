@@ -55,10 +55,30 @@
     </script>
     {{-- Scroll To Top --}}
 
+    {{-- Active Page --}}
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Get the current path
+            const currentPath = window.location.pathname;
+
+            // Select all links in the navigation
+            const navLinks = document.querySelectorAll('ul a');
+
+            // Loop through each link and add underline to the active one
+            navLinks.forEach(link => {
+                if (link.getAttribute('href') === currentPath) {
+                    link.classList.add('underline'); // Add underline class if active
+                }
+            });
+        });
+    </script>
+
+    {{-- Active Page --}}
+
     {{-- Animate on scroll --}}
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-      AOS.init();
+        AOS.init();
     </script>
     {{-- Animate on scroll --}}
     @yield('script')

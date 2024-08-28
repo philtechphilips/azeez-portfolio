@@ -34,6 +34,14 @@ Route::get('/m-and-g', function () {
     return view('m-and-g');
 });
 
+Route::get('/work', function () {
+    return view('work');
+});
+
+Route::get('/play', function () {
+    return view('play');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
