@@ -33,7 +33,7 @@
 
 
         <img class="absolute top-0 right-0 left-0  w-full h-[736px] z-0"  src="{{ asset('post-office-bg.png') }}">
-        <div class="w-full absolute top-0 right-0 left-0  w-full h-[736px] opacity-90" style="background-image: linear-gradient(to right bottom, #010413, #080a1c, #0d1024, #10142c, #141735);');"></div>
+        <div class="w-full absolute top-0 right-0 left-0 h-[736px] opacity-90" style="background-image: linear-gradient(to right bottom, #010413, #080a1c, #0d1024, #10142c, #141735);');"></div>
     </section>
 
     

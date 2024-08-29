@@ -60,11 +60,11 @@
         </div>
     </section>
 
-    <section class="w-full bg-[#000] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
+    <section class="w-full bg-[#000] md:px-48  -mt-5 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
         <video src="" controls></video>
     </section>
 
-    <section class="w-full bg-[#000] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
+    <section class="w-full bg-[#000] md:px-48 px-5  -mt-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
         <div class="mb-4">
             <h1 class="text-[#fff] text-2xl font-semibold text-center md:text-left font-[Inter]" data-aos="fade-up"
                 data-aos-duration="1000">About</h1>
@@ -80,47 +80,273 @@
         </div>
     </section>
 
-    <section class="w-full bg-[#000] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
+    <section class="w-full bg-[#000] -mt-5 md:px-48 px-5 flex flex-col justify-between pt-20">
+        <div class="mb-4">
+            <h1 class="text-[#fff] text-2xl font-semibold text-center md:text-left font-[Inter]" data-aos="fade-up"
+                data-aos-duration="1000">Challenges</h1>
+        </div>
+
+        <div class="flex md:flex-row flex-col md:gap-12 gap-4">
+            <div class="flex md:flex-row flex-col gap-4">
+                <div data-aos="fade-up" data-aos-delay="100" class="bg-white text-xl p-6 rounded-2xl pb-16">
+                    <h6 class="text-[#808080] font-semibold">Intuitive Issue Selection</h6>
+                    <p class="pt-2">Craft a user-friendly interface for seamless selection of user & advisor issues,
+                        allowing users to easily interact with their advisors faster and better.</p>
+                </div>
+                <div data-aos="fade-up" data-aos-delay="200" class="bg-white text-xl p-6 rounded-2xl relative pb-16">
+                    <h6 class="text-[#808080] font-semibold">Gamified impact</h6>
+                    <p class="pt-2">
+                        Introduce gamification to measure user impact, offering users achievements and feedback on how their
+                        involvement drives positive change.
+                    </p>
+                    <img src="{{ asset('2.png') }}" class="absolute -top-5 -right-5" alt="">
+                </div>
+            </div>
+            <div class="bg-white text-xl p-6 relative rounded-2xl pb-16" data-aos="fade-up" data-aos-delay="300">
+                <h6 class="text-[#808080] font-semibold">Mobile-First Design</h6>
+                <p class="pt-2">
+                    Implement a mobile-first approach across all features, ensuring seamless experience and functionality on
+                    smartphones
+                </p>
+                <img src="{{ asset('1.png') }}" class="absolute -top-5 -right-5" alt="">
+            </div>
+        </div>
+
+        <div class="flex gap-20 mt-4 w-full md:flex-row flex-col border-b border-[#B3B1B1] pb-20">
+            <div data-aos="fade-up" data-aos-delay="100"
+                class="bg-[#4B4B4B] hidden md:block text-xl md:w-1/2 p-6 relative rounded-2xl pb-16">
+                <h6 class="text-[#808080] font-semibold" style="visibility: hidden;">Gamified impact</h6>
+                <p class="pt-2" style="visibility: hidden;">
+                    Introduce gamification to measure user impact, offering users achievements and feedback on how their
+                    involvement drives positive change.
+                </p>
+            </div>
+
+
+            <div class="flex gap-6 w-full">
+                <div data-aos="fade-up" data-aos-delay="200"
+                    class="bg-[#00444B] text-xl md:w-1/2 p-6  relative rounded-2xl pb-16">
+                    <h6 class="text-[#98EAF2] font-semibold">Inclusive Interaction</h6>
+                    <p class="pt-2 text-white">
+                        Ensure a seamless in interaction between the users platform and the advisory platform
+                    </p>
+                    <img src="{{ asset('8.png') }}" class="absolute -top-5 -right-5" alt="">
+                </div>
+                <div data-aos="fade-up" data-aos-delay="300"
+                    class="bg-[#4B4B4B] hidden md:block text-xl w-1/2  p-6 relative rounded-2xl pb-16">
+                    <h6 class="text-[#808080] font-semibold" style="visibility: hidden;">Gamified impact</h6>
+                    <p class="pt-2" style="visibility: hidden;">
+                        Introduce gamification to measure user impact, offering users achievements and feedback on how their
+                        involvement drives positive change.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#000] md:px-48 px-5 pt-20">
+        <div class="flex md:flex-row flex-col justify-between">
+            <div class="mb-4">
+                <h1 class="text-[#fff] text-2xl font-semibold text-center md:text-left font-[Inter]" data-aos="fade-up"
+                    data-aos-duration="1000">Solution</h1>
+            </div>
+
+            <div class="md:w-[518px]">
+                <h1 class="text-white font-bold mb-3 text-center md:text-left" data-aos="fade-up">📋 Research</h1>
+                <p class="text-[#fff] text-center md:text-left font-[Inter]" data-aos="fade-up">
+                    To ensure we met all stakeholders' needs, my initial task was to have the team identify our users and
+                    stakeholders, along with their pain points. We organised a workshop specifically designed to pinpoint
+                    stakeholders and understand their challenges.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex flex-col items-center justify-center w-full py-20">
+            <div class="flex md:flex-row flex-col gap-5">
+                <img src="{{ asset('customer.png') }}" data-aos="fade-up" data-aos-delay="200" class="md:w-1/2"
+                    alt="">
+                <img src="{{ asset('advisor.png') }}" data-aos="fade-up" data-aos-delay="400" class="md:w-1/2"
+                    alt="">
+            </div>
+            <div class="flex justify-center md:-mt-10 mt-5">
+                <img src="{{ asset('m-and-g.png') }}" data-aos="fade-up" data-aos-delay="600" class="md:w-1/2"
+                    alt="">
+            </div>
+        </div>
+
+        <div class="flex justify-end pb-28">
+            <div class="md:w-[518px]">
+                <h1 class="text-white font-bold mb-3 text-center md:text-left" data-aos="fade-up">💥 Pain points</h1>
+                <p class="text-[#fff] text-center md:text-left font-[Inter]" data-aos="fade-up">
+                    Following the workshop, I proceeded to compile all the pain points from both the users and the
+                    stakeholders.
+                </p>
+            </div>
+        </div>
+
+        <div class="pb-20 ">
+            <div class="flex gap-16 items-end">
+                <img src="{{ asset('complex.png') }}" data-aos="fade-up" data-aos-delay="50" class="md:w-[600px]"
+                    alt="">
+                <img src="{{ asset('Union (1).png') }}"data-aos="fade-up" data-aos-delay="100"
+                    class="w-48 hidden md:block" alt="">
+            </div>
+
+            <div class="flex gap-20 items-start md:ml-28 pl-16 md:mt-10">
+                <img src="{{ asset('Union.png') }}" data-aos="fade-up" data-aos-delay="150"
+                    class="w-48 hidden md:block" alt="">
+                <img src="{{ asset('inefficiency.png') }}" data-aos="fade-up" data-aos-delay="200" class="md:w-[600px]"
+                    alt="">
+            </div>
+
+            <div class="flex gap-16 md:ml-28 pr-16 md:mt-10 items-end">
+                <img src="{{ asset('data.png') }}" data-aos="fade-up" data-aos-delay="250" class="md:w-[600px]"
+                    alt="">
+                <img src="{{ asset('Union (1).png') }}" data-aos="fade-up" data-aos-delay="300"
+                    class="w-48 hidden md:block" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#000] -mt-4 md:px-48 px-5 pb-20">
+        <div class="flex flex-col md:flex-row gap-2">
+            <div class="md:w-[40%]">
+                <img src="{{ asset('5.png') }}" alt="" data-aos="fade-up">
+            </div>
+            <div class="md:w-[60%]">
+                <div class="w-full flex gap-2">
+                    <div class="flex gap-2 flex-col">
+                        <img src="{{ asset('6.png') }}" alt="" data-aos="fade-up" data-aos-delay="100">
+                        <img src="{{ asset('7.png') }}" alt="" data-aos="fade-up" data-aos-delay="200">
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="300">
+                        <img src="{{ asset('12.png') }}" alt="">
+                    </div>
+                </div>
+                <div class="md:-mt-8  md:w-[110%]" data-aos="fade-up" data-aos-delay="300">
+                    <img src="{{ asset('10.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="w-full bg-[#000] md:px-48 px-5 pb-20">
+        <div class="flex justify-end">
+            <div class="md:w-[518px]">
+                <h1 class="text-white font-bold mb-3 text-center md:text-left" data-aos="fade-up">UI exploration</h1>
+                <p class="text-[#fff] text-center md:text-left font-[Inter]" data-aos="fade-up">
+                    Informed by our comprehensive research and aligned with M&G vision, we curated a mood-board featuring
+                    four distinct styles.
+                    These styles were categorised as follows: Modern and Clean, Serious and Professional and Bold &
+                    Colourful.
+                </p>
+            </div>
+        </div>
+
+        <div class="flex w-full flex-col md:flex-row">
+            <div data-aos="fade-up"
+                class="bg-[#5F9396] mt-10 flex md:gap-1 md:flex-nowrap flex-wrap md:w-1/2 md:p-8 p-4 gap-3">
+                <img src="{{ asset('4 4.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('5 3.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('6 3.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('7 3.png') }}" class="md:w-1/4" alt="">
+            </div>
+            <div data-aos="fade-up"
+                class="bg-[#D9D9D9] mt-10 flex md:gap-1 md:flex-nowrap flex-wrap md:rounded-tr-3xl md:w-1/2 md:p-8 p-4 gap-3">
+                <img src="{{ asset('2 6.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('3 6.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('4 6.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('5 5.png') }}" class="md:w-1/4" alt="">
+            </div>
+        </div>
+        <div class="flex w-full flex-col md:flex-row md:mt-0 mt-10">
+            <div data-aos="fade-up"
+                class="bg-[#D9D9D9] md:rounded-bl-3xl flex md:flex-nowrap flex-wrap md:gap-1 md:w-1/2 md:p-8 p-4 gap-3">
+                <img src="{{ asset('1-2.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('2-2.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('3-3.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('4-4.png') }}" class="md:w-1/4" alt="">
+            </div>
+            <div data-aos="fade-up"
+                class="bg-[#5F9396] flex md:gap-1 mt-10 md:mt-0 md:flex-nowrap flex-wrap md:w-1/2 md:p-8 p-4 gap-3">
+                <img src="{{ asset('3-6.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('4-6.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('5-5.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('7-4.png') }}" class="md:w-1/4" alt="">
+            </div>
+        </div>
+
+        <div class="mb-4 flex justify-end w-full">
+            <h1 class="text-[#fff] mt-20 text-sm font-semibold text-right font-[Inter] mb-3" data-aos="fade-up"
+                data-aos-duration="1000">Wireframe
+            </h1>
+        </div>
+
+        <div class="bg-[#212121] md:p-12 p-5 rounded-3xl" data-aos="fade-up" data-aos-delay="300">
+            <div class="flex md:flex-row flex-col gap-4">
+                <img data-aos="fade-up" src="{{ asset('Customer Landing.png') }}" class="md:w-1/2" alt="">
+                <img data-aos="fade-up" src="{{ asset('Money out - digital - combined withdrawals.png') }}"
+                    class="md:w-1/2" alt="">
+            </div>
+            <div class="flex md:flex-row flex-col gap-4 mt-4">
+                <img data-aos="fade-up" src="{{ asset('Money out - paper.png') }}" class="md:w-1/2" alt="">
+                <img data-aos="fade-up" src="{{ asset('Money out - digital - combined withdrawals (1).png') }}"
+                    class="md:w-1/2" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full bg-[#000] md:px-48 px-5 flex md:flex-row flex-col justify-between -mt-4 pb-20">
         <div class="mb-4">
             <h1 class="text-[#fff] text-2xl font-semibold text-center md:text-left font-[Inter] mb-8" data-aos="fade-up"
                 data-aos-duration="1000">UI Design
             </h1>
 
-            <img src="{{ asset('MacBook Pro and iPhone 15 Pro Mockup.png') }}" alt="">
+            <img src="{{ asset('MacBook Pro and iPhone 15 Pro Mockup.png') }}" data-aos="fade-up" data-aos-delay="100"
+                alt="">
 
             <h1 class="text-[#fff] mt-20 text-sm font-semibold text-right font-[Inter] mb-3" data-aos="fade-up"
                 data-aos-duration="1000">Components
             </h1>
 
-            <img src="{{ asset('components.png') }}" class="mt-4 mb-20" alt="">
+            <img src="{{ asset('components.png') }}" data-aos="fade-up" data-aos-delay="200" class="mt-4 mb-20"
+                alt="">
 
             <h1 class="text-[#fff] text-sm font-semibold text-right font-[Inter] mb-3" data-aos="fade-up"
                 data-aos-duration="1000">Website
             </h1>
 
-            <img src="{{ asset('MacBook Pro Screen.png') }}" class="mt-4" alt="">
+            <img src="{{ asset('MacBook Pro Screen.png') }}" data-aos="fade-up" data-aos-delay="300" class="mt-4"
+                alt="">
 
-            <img src="{{ asset('Adviser Landing v1 1.png') }}" class="mt-8" alt="">
+            <img src="{{ asset('Adviser Landing v1 1.png') }}" data-aos="fade-up" data-aos-delay="400" class="mt-8"
+                alt="">
 
-            <img src="{{ asset('Customer_Dashboard.png') }}" class="mt-8" alt="">
+            <img src="{{ asset('Customer_Dashboard.png') }}" data-aos="fade-up" data-aos-delay="500" class="mt-8"
+                alt="">
 
             <h1 class="text-[#fff] text-sm font-semibold mt-20 text-right font-[Inter] mb-3" data-aos="fade-up"
                 data-aos-duration="1000">Mobile
             </h1>
 
             <div class="flex md:flex-row flex-col gap-20 flex-wrap justify-between">
-                <img src="{{ asset('home.png') }}" class="w-[375px] md:pr-20" alt="">
-                <img src="{{ asset('ActivePoruduct_Popup.png') }}" class="w-[375px] md:pl-20" alt="">
-                <img src="{{ asset('ActivePoruduct_Popup (1).png') }}" class="w-[375px] md:pr-20 md:mt-12" alt="">
-                <img src="{{ asset('Help&Support_Popup.png') }}" class="w-[375px] md:pl-20 md:mt-12" alt="">
+                <img src="{{ asset('home.png') }}" data-aos="fade-up" data-aos-delay="600" class="w-[375px] md:pr-20"
+                    alt="">
+                <img src="{{ asset('ActivePoruduct_Popup.png') }}" data-aos="fade-up" data-aos-delay="700"
+                    class="w-[375px] md:pl-20" alt="">
+                <img src="{{ asset('ActivePoruduct_Popup (1).png') }}" data-aos="fade-up" data-aos-delay="800"
+                    class="w-[375px] md:pr-20 md:mt-12" alt="">
+                <img src="{{ asset('Help&Support_Popup.png') }}" class="w-[375px] md:pl-20 md:mt-12" data-aos="fade-up"
+                    data-aos-delay="900" alt="">
             </div>
             <div class="flex justify-end">
-                <img src="{{ asset('Help&Support_Popup.png') }}" class="w-[375px] md:pl-20 md:mt-12 mt-20" alt="">
+                <img src="{{ asset('Help&Support_Popup.png') }}" data-aos="fade-up" data-aos-delay="1000"
+                    class="w-[375px] md:pl-20 md:mt-12 mt-20" alt="">
             </div>
         </div>
 
 
-    </section>
+    </div>
 
     <section class="w-full -mt-1 md:px-48 bg-[#000] px-5 flex md:flex-row flex-col justify-between pb-20 md:pt-20">
         <div class="mb-4">

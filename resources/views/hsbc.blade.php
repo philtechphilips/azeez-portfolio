@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <img src="{{ asset('hsbc-bg.png') }}" class="w-fit h-full top-0 absolute right-0">
+        <img src="{{ asset('hsbc-bg.png') }}" class="w-full h-full top-0 absolute right-0">
         <div class="w-full absolute top-0 right-0 left-0 h-[736px] opacity-90 bg-[#080404]"></div>
     </section>
 
