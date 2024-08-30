@@ -5,7 +5,7 @@
 
     <section class="my-20 md:px-32 px-5 flex md:flex-row flex-col gap-10">
         <div class="md:w-1/3 border border-black rounded-[36px]" data-aos="fade-right">
-            <img class="rounded-[36px]" src="{{ asset('play.png') }}" style="box-shadow: -7px 5px 0px 4px #000;">
+            <img class="rounded-[36px]" src="{{ asset('images/play.png') }}" style="box-shadow: -7px 5px 0px 4px #000;">
         </div>
 
         <div class="md:w-2/3 border md:px-10 pt-5 p-5 border-black rounded-[36px]" data-aos="fade-left" data-aos-delay="200" style="box-shadow: -7px 5px 0px 4px #000;">
@@ -28,11 +28,11 @@
         </div>
 
         <div class="md:w-1/3 border border-black rounded-[36px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-            <img class="rounded-[36px]" class="w-full" src="{{ asset('azeez-2.png') }}" style="box-shadow: -7px 5px 0px 4px #000;">
+            <img class="rounded-[36px]" class="w-full" src="{{ asset('images/azeez-2.png') }}" style="box-shadow: -7px 5px 0px 4px #000;">
         </div>
 
         <div class="md:w-1/3 border border-black rounded-[36px]" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
-            <img class="rounded-[36px]" class="w-full" src="{{ asset('azeez-3.png') }}" style="box-shadow: -7px 5px 0px 4px #000;">
+            <img class="rounded-[36px]" class="w-full" src="{{ asset('images/azeez-3.png') }}" style="box-shadow: -7px 5px 0px 4px #000;">
         </div>
     </section>
 @endsection

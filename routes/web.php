@@ -38,6 +38,10 @@ Route::get('/work', function () {
     return view('work');
 });
 
+Route::get('/shark-ninja', function () {
+    return view('shark-ninja');
+});
+
 Route::get('/play', function () {
     return view('play');
 });

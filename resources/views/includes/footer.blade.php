@@ -17,6 +17,6 @@
                 </div>
         </div>
 
-        <img src="{{ asset("angle-up.svg") }}" class="animate-bounce infinite cursor-pointer" onclick="scrollToTop()">
+        <img src="{{ asset("images/angle-up.svg") }}" class="animate-bounce infinite cursor-pointer" onclick="scrollToTop()">
   </div>
 </footer>

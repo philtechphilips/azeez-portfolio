@@ -7,11 +7,11 @@
     <section
         class="flex flex-col md:flex-row items-center justify-center md:justify-between md:px-28 px-5 md:gap-48 gap-10 cursor-pointer pt-5 pb-20 hero">
         <div class="image-ai" class="md:w-[515px] h-[586px]">
-            <img src="{{ asset('image 11.png') }}" data-aos="fade-right" data-aos-duration="800"
+            <img src="{{ asset('images/image 11.png') }}" data-aos="fade-right" data-aos-duration="800"
                 class="md:w-[515px] md:h-[586px]">
         </div>
         <div class="w-[342px] h-[373.54px] animate-bounce infinite">
-            <img src="{{ asset('image 12.png') }}" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200"
+            <img src="{{ asset('images/image 12.png') }}" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200"
                 class="md:w-[342px] md:h-[373.54px]">
         </div>
     </section>
@@ -19,12 +19,12 @@
     <section class="flex flex-col justify-center md:px-28 px-5 pb-28">
         <div class="flex flex-col items-center justify-center gap-3 mb-8 w-full">
             <h1 class="font-semibold">Selected work</h1>
-            <img src="{{ asset('down.svg') }}" class="animate-bounce infinite">
+            <img src="{{ asset('images/down.svg') }}" class="animate-bounce infinite">
         </div>
 
         <div class="flex flex-wrap gap-4 justify-center gap-y-10">
             <div class="w-[510px]">
-                <img src="{{ asset('hsbc-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px] border rounded-3xl border-black">
+                <img src="{{ asset('images/hsbc-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px] border rounded-3xl border-black">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">HSBC
                     </h1>
@@ -37,13 +37,13 @@
                         onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
                         class="view-button flex items-center cursor-pointer bg-black rounded-full text-white px-3 py-2 gap-1 w-fit mt-6">
                         <p>Discover</p>
-                        <img src="{{ asset('arrow short.svg') }}">
+                        <img src="{{ asset('images/arrow short.svg') }}">
                     </a>
                 </div>
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('post-office-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px] border rounded-3xl border-black">
+                <img src="{{ asset('images/post-office-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px] border rounded-3xl border-black">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Post
                         office</h1>
@@ -55,13 +55,13 @@
                         onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
                         class="view-button flex items-center cursor-pointer bg-black rounded-full text-white px-3 py-2 gap-1 w-fit mt-6">
                         <p>Discover</p>
-                        <img src="{{ asset('arrow short.svg') }}">
+                        <img src="{{ asset('images/arrow short.svg') }}">
                     </a>
                 </div>
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('m-and-g-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
+                <img src="{{ asset('images/m-and-g-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">M&G
                     </h1>
@@ -75,13 +75,13 @@
                         onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
                         class="view-button flex items-center cursor-pointer bg-black rounded-full text-white px-3 py-2 gap-1 w-fit mt-6">
                         <p>Discover</p>
-                        <img src="{{ asset('arrow short.svg') }}">
+                        <img src="{{ asset('images/arrow short.svg') }}">
                     </a>
                 </div>
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('shark.png') }}" class="w-[510px]" data-aos="fade-up" data-aos-duration="800">
+                <img src="{{ asset('images/shark.png') }}" class="w-[510px]" data-aos="fade-up" data-aos-duration="800">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         Shark Ninja</h1>
@@ -90,11 +90,11 @@
                         Global component harmonisation to ensure the development of
                         user-friendly interactions in accordance with best standards.
                     </p>
-                    <a data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" href="/hsbc"
+                    <a data-aos="fade-up" data-aos-duration="800" data-aos-delay="400" href="/shark-ninja"
                         onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
                         class="view-button flex items-center cursor-pointer bg-black rounded-full text-white px-3 py-2 gap-1 w-fit mt-6">
                         <p>Discover</p>
-                        <img src="{{ asset('arrow short.svg') }}">
+                        <img src="{{ asset('images/arrow short.svg') }}">
                     </a>
                 </div>
             </div>
@@ -108,23 +108,23 @@
         const skillImage = document.querySelector('.image-ai img');
 
         document.querySelector('.hero').addEventListener('mouseover', function() {
-            skillImage.src = 'Frame.png';
+            skillImage.src = 'images/Frame.png';
         });
 
         document.querySelector('.hero').addEventListener('mouseout', function() {
-            skillImage.src = 'image 11.png';
+            skillImage.src = 'images/image 11.png';
         });
     </script>
 
     <script>
         function changeArrow(element) {
             let img = element.querySelector('img');
-            img.src = "long arrow.svg";
+            img.src = "images/long arrow.svg";
         }
 
         function resetArrow(element) {
             let img = element.querySelector('img');
-            img.src = "arrow short.svg";
+            img.src = "images/arrow short.svg";
         }
     </script>
 
@@ -134,9 +134,9 @@
             const skillImage = document.querySelector('.image-ai img');
 
             if (scrollY > 10) {
-                skillImage.src = 'Frame.png';
+                skillImage.src = 'images/Frame.png';
             }else{
-                skillImage.src = 'image 11.png';
+                skillImage.src = 'images/image 11.png';
             }
         });
     </script>

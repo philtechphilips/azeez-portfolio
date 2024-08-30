@@ -2,9 +2,9 @@
 
 @section('content')
     <section class="w-full md:h-[730px] relative md:pl-48 pb-20 pl-5 z-50"
-        style="background: url('{{ asset('m&g-bg.png') }}'); background-position: center center;  ">
+        style="background: url('{{ asset('images/m&g-bg.png') }}'); background-position: center center;  ">
         <a href="/" class="flex pt-20 items-center gap-3">
-            <img src="{{ asset('back-arrow.svg') }}" alt="">
+            <img src="{{ asset('images/back-arrow.svg') }}" alt="">
             <p class="text-white font-medium text-xl">Back</p>
         </a>
         <div class="flex md:flex-row flex-col w-full">
@@ -36,7 +36,7 @@
             </div>
 
             <div class="md:w-2/3">
-                <img src="{{ asset('mac.png') }}" class="w-fit md:-mt-16 mt-10">
+                <img src="{{ asset('images/mac.png') }}" class="w-fit md:-mt-16 mt-10">
             </div>
 
         </div>
@@ -99,7 +99,7 @@
                         Introduce gamification to measure user impact, offering users achievements and feedback on how their
                         involvement drives positive change.
                     </p>
-                    <img src="{{ asset('2.png') }}" class="absolute -top-5 -right-5" alt="">
+                    <img src="{{ asset('images/2.png') }}" class="absolute -top-5 -right-5" alt="">
                 </div>
             </div>
             <div class="bg-white text-xl p-6 relative rounded-2xl pb-16" data-aos="fade-up" data-aos-delay="300">
@@ -108,7 +108,7 @@
                     Implement a mobile-first approach across all features, ensuring seamless experience and functionality on
                     smartphones
                 </p>
-                <img src="{{ asset('1.png') }}" class="absolute -top-5 -right-5" alt="">
+                <img src="{{ asset('images/1.png') }}" class="absolute -top-5 -right-5" alt="">
             </div>
         </div>
 
@@ -130,7 +130,7 @@
                     <p class="pt-2 text-white">
                         Ensure a seamless in interaction between the users platform and the advisory platform
                     </p>
-                    <img src="{{ asset('8.png') }}" class="absolute -top-5 -right-5" alt="">
+                    <img src="{{ asset('images/8.png') }}" class="absolute -top-5 -right-5" alt="">
                 </div>
                 <div data-aos="fade-up" data-aos-delay="300"
                     class="bg-[#4B4B4B] hidden md:block text-xl w-1/2  p-6 relative rounded-2xl pb-16">
@@ -163,13 +163,13 @@
 
         <div class="flex flex-col items-center justify-center w-full py-20">
             <div class="flex md:flex-row flex-col gap-5">
-                <img src="{{ asset('customer.png') }}" data-aos="fade-up" data-aos-delay="200" class="md:w-1/2"
+                <img src="{{ asset('images/customer.png') }}" data-aos="fade-up" data-aos-delay="200" class="md:w-1/2"
                     alt="">
-                <img src="{{ asset('advisor.png') }}" data-aos="fade-up" data-aos-delay="400" class="md:w-1/2"
+                <img src="{{ asset('images/advisor.png') }}" data-aos="fade-up" data-aos-delay="400" class="md:w-1/2"
                     alt="">
             </div>
             <div class="flex justify-center md:-mt-10 mt-5">
-                <img src="{{ asset('m-and-g.png') }}" data-aos="fade-up" data-aos-delay="600" class="md:w-1/2"
+                <img src="{{ asset('images/m-and-g.png') }}" data-aos="fade-up" data-aos-delay="600" class="md:w-1/2"
                     alt="">
             </div>
         </div>
@@ -186,23 +186,23 @@
 
         <div class="pb-20 ">
             <div class="flex gap-16 items-end">
-                <img src="{{ asset('complex.png') }}" data-aos="fade-up" data-aos-delay="50" class="md:w-[600px]"
+                <img src="{{ asset('images/complex.png') }}" data-aos="fade-up" data-aos-delay="50" class="md:w-[600px]"
                     alt="">
-                <img src="{{ asset('Union (1).png') }}"data-aos="fade-up" data-aos-delay="100"
+                <img src="{{ asset('images/Union (1).png') }}"data-aos="fade-up" data-aos-delay="100"
                     class="w-48 hidden md:block" alt="">
             </div>
 
             <div class="flex gap-20 items-start md:ml-28 pl-16 md:mt-10">
-                <img src="{{ asset('Union.png') }}" data-aos="fade-up" data-aos-delay="150"
+                <img src="{{ asset('images/Union.png') }}" data-aos="fade-up" data-aos-delay="150"
                     class="w-48 hidden md:block" alt="">
-                <img src="{{ asset('inefficiency.png') }}" data-aos="fade-up" data-aos-delay="200" class="md:w-[600px]"
+                <img src="{{ asset('images/inefficiency.png') }}" data-aos="fade-up" data-aos-delay="200" class="md:w-[600px]"
                     alt="">
             </div>
 
             <div class="flex gap-16 md:ml-28 pr-16 md:mt-10 items-end">
-                <img src="{{ asset('data.png') }}" data-aos="fade-up" data-aos-delay="250" class="md:w-[600px]"
+                <img src="{{ asset('images/data.png') }}" data-aos="fade-up" data-aos-delay="250" class="md:w-[600px]"
                     alt="">
-                <img src="{{ asset('Union (1).png') }}" data-aos="fade-up" data-aos-delay="300"
+                <img src="{{ asset('images/Union (1).png') }}" data-aos="fade-up" data-aos-delay="300"
                     class="w-48 hidden md:block" alt="">
             </div>
         </div>
@@ -211,20 +211,20 @@
     <section class="w-full bg-[#000] -mt-4 md:px-48 px-5 pb-20">
         <div class="flex flex-col md:flex-row gap-2">
             <div class="md:w-[40%]">
-                <img src="{{ asset('5.png') }}" alt="" data-aos="fade-up">
+                <img src="{{ asset('images/5.png') }}" alt="" data-aos="fade-up">
             </div>
             <div class="md:w-[60%]">
                 <div class="w-full flex gap-2">
                     <div class="flex gap-2 flex-col">
-                        <img src="{{ asset('6.png') }}" alt="" data-aos="fade-up" data-aos-delay="100">
-                        <img src="{{ asset('7.png') }}" alt="" data-aos="fade-up" data-aos-delay="200">
+                        <img src="{{ asset('images/6.png') }}" alt="" data-aos="fade-up" data-aos-delay="100">
+                        <img src="{{ asset('images/7.png') }}" alt="" data-aos="fade-up" data-aos-delay="200">
                     </div>
                     <div data-aos="fade-up" data-aos-delay="300">
-                        <img src="{{ asset('12.png') }}" alt="">
+                        <img src="{{ asset('images/12.png') }}" alt="">
                     </div>
                 </div>
                 <div class="md:-mt-8  md:w-[110%]" data-aos="fade-up" data-aos-delay="300">
-                    <img src="{{ asset('10.png') }}" alt="">
+                    <img src="{{ asset('images/10.png') }}" alt="">
                 </div>
             </div>
         </div>
@@ -246,33 +246,33 @@
         <div class="flex w-full flex-col md:flex-row">
             <div data-aos="fade-up"
                 class="bg-[#5F9396] mt-10 flex md:gap-1 md:flex-nowrap flex-wrap md:w-1/2 md:p-8 p-4 gap-3">
-                <img src="{{ asset('4 4.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('5 3.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('6 3.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('7 3.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/4 4.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/5 3.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/6 3.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/7 3.png') }}" class="md:w-1/4" alt="">
             </div>
             <div data-aos="fade-up"
                 class="bg-[#D9D9D9] mt-10 flex md:gap-1 md:flex-nowrap flex-wrap md:rounded-tr-3xl md:w-1/2 md:p-8 p-4 gap-3">
-                <img src="{{ asset('2 6.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('3 6.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('4 6.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('5 5.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/2 6.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/3 6.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/4 6.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/5 5.png') }}" class="md:w-1/4" alt="">
             </div>
         </div>
         <div class="flex w-full flex-col md:flex-row md:mt-0 mt-10">
             <div data-aos="fade-up"
                 class="bg-[#D9D9D9] md:rounded-bl-3xl flex md:flex-nowrap flex-wrap md:gap-1 md:w-1/2 md:p-8 p-4 gap-3">
-                <img src="{{ asset('1-2.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('2-2.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('3-3.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('4-4.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/1-2.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/2-2.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/3-3.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/4-4.png') }}" class="md:w-1/4" alt="">
             </div>
             <div data-aos="fade-up"
                 class="bg-[#5F9396] flex md:gap-1 mt-10 md:mt-0 md:flex-nowrap flex-wrap md:w-1/2 md:p-8 p-4 gap-3">
-                <img src="{{ asset('3-6.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('4-6.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('5-5.png') }}" class="md:w-1/4" alt="">
-                <img src="{{ asset('7-4.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/3-6.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/4-6.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/5-5.png') }}" class="md:w-1/4" alt="">
+                <img src="{{ asset('images/7-4.png') }}" class="md:w-1/4" alt="">
             </div>
         </div>
 
@@ -284,13 +284,13 @@
 
         <div class="bg-[#212121] md:p-12 p-5 rounded-3xl" data-aos="fade-up" data-aos-delay="300">
             <div class="flex md:flex-row flex-col gap-4">
-                <img data-aos="fade-up" src="{{ asset('Customer Landing.png') }}" class="md:w-1/2" alt="">
-                <img data-aos="fade-up" src="{{ asset('Money out - digital - combined withdrawals.png') }}"
+                <img data-aos="fade-up" src="{{ asset('images/Customer Landing.png') }}" class="md:w-1/2" alt="">
+                <img data-aos="fade-up" src="{{ asset('images/Money out - digital - combined withdrawals.png') }}"
                     class="md:w-1/2" alt="">
             </div>
             <div class="flex md:flex-row flex-col gap-4 mt-4">
-                <img data-aos="fade-up" src="{{ asset('Money out - paper.png') }}" class="md:w-1/2" alt="">
-                <img data-aos="fade-up" src="{{ asset('Money out - digital - combined withdrawals (1).png') }}"
+                <img data-aos="fade-up" src="{{ asset('images/Money out - paper.png') }}" class="md:w-1/2" alt="">
+                <img data-aos="fade-up" src="{{ asset('images/Money out - digital - combined withdrawals (1).png') }}"
                     class="md:w-1/2" alt="">
             </div>
         </div>
@@ -302,27 +302,27 @@
                 data-aos-duration="1000">UI Design
             </h1>
 
-            <img src="{{ asset('MacBook Pro and iPhone 15 Pro Mockup.png') }}" data-aos="fade-up" data-aos-delay="100"
+            <img src="{{ asset('images/MacBook Pro and iPhone 15 Pro Mockup.png') }}" data-aos="fade-up" data-aos-delay="100"
                 alt="">
 
             <h1 class="text-[#fff] mt-20 text-sm font-semibold text-right font-[Inter] mb-3" data-aos="fade-up"
                 data-aos-duration="1000">Components
             </h1>
 
-            <img src="{{ asset('components.png') }}" data-aos="fade-up" data-aos-delay="200" class="mt-4 mb-20"
+            <img src="{{ asset('images/components.png') }}" data-aos="fade-up" data-aos-delay="200" class="mt-4 mb-20"
                 alt="">
 
             <h1 class="text-[#fff] text-sm font-semibold text-right font-[Inter] mb-3" data-aos="fade-up"
                 data-aos-duration="1000">Website
             </h1>
 
-            <img src="{{ asset('MacBook Pro Screen.png') }}" data-aos="fade-up" data-aos-delay="300" class="mt-4"
+            <img src="{{ asset('images/MacBook Pro Screen.png') }}" data-aos="fade-up" data-aos-delay="300" class="mt-4"
                 alt="">
 
-            <img src="{{ asset('Adviser Landing v1 1.png') }}" data-aos="fade-up" data-aos-delay="400" class="mt-8"
+            <img src="{{ asset('images/Adviser Landing v1 1.png') }}" data-aos="fade-up" data-aos-delay="400" class="mt-8"
                 alt="">
 
-            <img src="{{ asset('Customer_Dashboard.png') }}" data-aos="fade-up" data-aos-delay="500" class="mt-8"
+            <img src="{{ asset('images/Customer_Dashboard.png') }}" data-aos="fade-up" data-aos-delay="500" class="mt-8"
                 alt="">
 
             <h1 class="text-[#fff] text-sm font-semibold mt-20 text-right font-[Inter] mb-3" data-aos="fade-up"
@@ -330,17 +330,17 @@
             </h1>
 
             <div class="flex md:flex-row flex-col gap-20 flex-wrap justify-between">
-                <img src="{{ asset('home.png') }}" data-aos="fade-up" data-aos-delay="600" class="w-[375px] md:pr-20"
+                <img src="{{ asset('images/home.png') }}" data-aos="fade-up" data-aos-delay="600" class="w-[375px] md:pr-20"
                     alt="">
-                <img src="{{ asset('ActivePoruduct_Popup.png') }}" data-aos="fade-up" data-aos-delay="700"
+                <img src="{{ asset('images/ActivePoruduct_Popup.png') }}" data-aos="fade-up" data-aos-delay="700"
                     class="w-[375px] md:pl-20" alt="">
-                <img src="{{ asset('ActivePoruduct_Popup (1).png') }}" data-aos="fade-up" data-aos-delay="800"
+                <img src="{{ asset('images/ActivePoruduct_Popup (1).png') }}" data-aos="fade-up" data-aos-delay="800"
                     class="w-[375px] md:pr-20 md:mt-12" alt="">
-                <img src="{{ asset('Help&Support_Popup.png') }}" class="w-[375px] md:pl-20 md:mt-12" data-aos="fade-up"
+                <img src="{{ asset('images/Help&Support_Popup.png') }}" class="w-[375px] md:pl-20 md:mt-12" data-aos="fade-up"
                     data-aos-delay="900" alt="">
             </div>
             <div class="flex justify-end">
-                <img src="{{ asset('Help&Support_Popup.png') }}" data-aos="fade-up" data-aos-delay="1000"
+                <img src="{{ asset('images/Help&Support_Popup.png') }}" data-aos="fade-up" data-aos-delay="1000"
                     class="w-[375px] md:pl-20 md:mt-12 mt-20" alt="">
             </div>
         </div>

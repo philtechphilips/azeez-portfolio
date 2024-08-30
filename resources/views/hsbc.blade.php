@@ -30,7 +30,7 @@
             </div>
         </div>
 
-        <img src="{{ asset('hsbc-bg.png') }}" class="w-full h-full top-0 absolute right-0">
+        <img src="{{ asset('images/hsbc-bg.png') }}" class="w-full h-full top-0 absolute right-0">
         <div class="w-full absolute top-0 right-0 left-0 h-[736px] opacity-90 bg-[#080404]"></div>
     </section>
 
@@ -53,7 +53,7 @@
 
     <section
         class="md:px-20 px-5 bg-[#000] md:py-20 py-10 md:gap-16 gap-8 flex items-center md:flex-row flex-col justify-center">
-        <img src="{{ asset('mobile-app.png') }}" class="w-full" data-aos="fade-right" data-aos-duration="1000">
+        <img src="{{ asset('images/mobile-app.png') }}" class="w-full" data-aos="fade-right" data-aos-duration="1000">
     </section>
 
     <section class="w-full bg-[#000] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 md:pt-20">
@@ -74,7 +74,7 @@
 
     <section
         class="md:px-48 px-5 bg-[#000] md:py-20 py-10 md:gap-16 gap-8 flex items-center md:flex-row flex-col justify-center">
-        <img src="{{ asset('map.png') }}" class="w-[700px]" data-aos="fade-right" data-aos-duration="1000">
+        <img src="{{ asset('images/map.png') }}" class="w-[700px]" data-aos="fade-right" data-aos-duration="1000">
     </section>
 
 
@@ -94,7 +94,7 @@
     </section>
 
     <section class="md:px-48 px-5 bg-[#000] md:py-20 py-10 -mt-2 gap-4 flex items-center md:flex-row flex-col justify-center">
-        <img src="{{ asset('app.png') }}" class="w-[516px]" data-aos="fade-up" data-aos-duration="1000">
+        <img src="{{ asset('images/app.png') }}" class="w-[516px]" data-aos="fade-up" data-aos-duration="1000">
     </section>
 
 
@@ -129,8 +129,8 @@
 
 
     <section class="md:px-20 px-5 bg-[#000] md:py-20 py-10 flex flex-col md:flex-row gap-4 justify-center">
-        <img src="{{ asset('shot.png') }}" class="w-[655px]" data-aos="fade-right" data-aos-duration="1000">
-        <img src="{{ asset('shots.png') }}" class="w-[398px]" data-aos="fade-right" data-aos-duration="1000">
+        <img src="{{ asset('images/shot.png') }}" class="w-[655px]" data-aos="fade-right" data-aos-duration="1000">
+        <img src="{{ asset('images/shots.png') }}" class="w-[398px]" data-aos="fade-right" data-aos-duration="1000">
     </section>
 
     <section class="w-full bg-[#000] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20">
@@ -160,7 +160,7 @@
 
 
     <section class="md:px-48 px-5 bg-[#000] md:py-20 py-10 flex items-center md:flex-row  gap-4 flex-col justify-center">
-        <img src="{{ asset('apps-grid.png') }}" data-aos="fade-up" data-aos-duration="1000">
+        <img src="{{ asset('images/apps-grid.png') }}" data-aos="fade-up" data-aos-duration="1000">
     </section>
 
     <section class="w-full flex bg-[#000] flex-col items-center justify-center -mt-2">
@@ -188,7 +188,7 @@
         <div class="flex flex-col md:flex-row items-start justify-between">
             <div class="flex md:w-1/3 flex-col">
                 <div class="bg-[#DB0011] rounded-lg pl-4 pr-10 py-4 text-white" data-aos="fade-up" data-aos-duration="1000">01_Accounts</div>
-                <img class="py-20" src="{{ asset('Account.png') }}" data-aos="fade-right" data-aos-duration="1000">
+                <img class="py-20" src="{{ asset('images/Account.png') }}" data-aos="fade-right" data-aos-duration="1000">
 
                 <div class="border border-[#D9D9D9] rounded-lg p-5 flex flex-col gap-2" data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="text-white text-xl font-base">01_Home</h1>
@@ -197,7 +197,7 @@
                 </div>
 
                 <div class="pt-16 pb-10" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="{{ asset('3_2.png') }}">
+                    <img src="{{ asset('images/3_2.png') }}">
                 </div>
 
                 <div class="border border-[#D9D9D9] rounded-lg p-3 flex flex-col gap-2" data-aos="fade-up" data-aos-duration="1000">
@@ -229,7 +229,7 @@
                 </div>
 
                 <div class="pt-16 pb-10" data-aos="fade-up" data-aos-duration="1000">
-                    <img src="{{ asset('tab-notification.png') }}">
+                    <img src="{{ asset('images/tab-notification.png') }}">
                 </div>
 
             </div>
@@ -293,7 +293,7 @@
 
             <div class="flex md:w-1/3 flex-col">
                 <div class="bg-[#DB0011] rounded-lg pl-4 pr-10 py-4 text-white" data-aos="fade-up" data-aos-duration="1000">02_Profile</div>
-                <img class="py-20" src="{{ asset('profile.png') }}" data-aos="fade-right" data-aos-duration="1000">
+                <img class="py-20" src="{{ asset('images/profile.png') }}" data-aos="fade-right" data-aos-duration="1000">
 
                 <div class="border border-[#D9D9D9] rounded-lg p-5 flex flex-col gap-2" data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="text-white text-xl font-base">02_Profile</h1>
@@ -302,7 +302,7 @@
                 </div>
 
                 <div class="pt-16 pb-10 w-full" data-aos="fade-up" data-aos-duration="1000">
-                    <img class="w-full" src="{{ asset('locked.png') }}">
+                    <img class="w-full" src="{{ asset('images/locked.png') }}">
                 </div>
 
                 <div class="border border-[#D9D9D9] rounded-lg p-3 flex flex-col gap-2" data-aos="fade-up" data-aos-duration="1000">
@@ -380,7 +380,7 @@
             <div class="flex md:w-1/3 flex-col">
                 <div class="bg-[#DB0011] rounded-lg pl-4 pr-10 py-4 text-white" data-aos="fade-up" data-aos-duration="1000">03_About Me</div>
 
-                <img class="py-20 w-full" data-aos="fade-up" data-aos-duration="1000" src="{{ asset('skeleton.png') }}">
+                <img class="py-20 w-full" data-aos="fade-up" data-aos-duration="1000" src="{{ asset('images/skeleton.png') }}">
 
                 <div class="border border-[#D9D9D9] rounded-lg p-5 flex flex-col gap-2" data-aos="fade-up" data-aos-duration="1000">
                     <h1 class="text-white text-xl font-base">03.01_Loading Screen</h1>
@@ -389,9 +389,9 @@
                     <p class="font-semibold text-[#DB0011] text-xs">Please note motion TBD.</p>
                 </div>
 
-                <img class="py-8" src="{{ asset('C_01.png') }}" data-aos="fade-up" data-aos-duration="1000">
+                <img class="py-8" src="{{ asset('images/C_01.png') }}" data-aos="fade-up" data-aos-duration="1000">
 
-                <img class="py-8" src="{{ asset('C_02.png') }}" data-aos="fade-up" data-aos-duration="1000">
+                <img class="py-8" src="{{ asset('images/C_02.png') }}" data-aos="fade-up" data-aos-duration="1000">
             </div>
         </div>
     </section>

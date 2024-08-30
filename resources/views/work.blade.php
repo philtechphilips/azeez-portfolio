@@ -7,7 +7,7 @@
     <section class="flex flex-col justify-center md:px-28 px-5 pb-60 pt-16">
         <div class="flex flex-wrap gap-4 justify-center gap-y-10">
             <div class="w-[510px]">
-                <img src="{{ asset('hsbc-home.png') }}" data-aos="fade-up" data-aos-duration="800"
+                <img src="{{ asset('images/hsbc-home.png') }}" data-aos="fade-up" data-aos-duration="800"
                     class="w-[510px] border rounded-3xl border-black">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">HSBC
@@ -21,13 +21,13 @@
                         onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
                         class="view-button flex items-center cursor-pointer bg-black rounded-full text-white px-3 py-2 gap-1 w-fit mt-6">
                         <p>Discover</p>
-                        <img src="{{ asset('arrow short.svg') }}">
+                        <img src="{{ asset('images/arrow short.svg') }}">
                     </a>
                 </div>
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('post-office-home.png') }}" data-aos="fade-up" data-aos-duration="800"
+                <img src="{{ asset('images/post-office-home.png') }}" data-aos="fade-up" data-aos-duration="800"
                     class="w-[510px] border rounded-3xl border-black">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Post
@@ -40,13 +40,13 @@
                         onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
                         class="view-button flex items-center cursor-pointer bg-black rounded-full text-white px-3 py-2 gap-1 w-fit mt-6">
                         <p>Discover</p>
-                        <img src="{{ asset('arrow short.svg') }}">
+                        <img src="{{ asset('images/arrow short.svg') }}">
                     </a>
                 </div>
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('m-and-g-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
+                <img src="{{ asset('images/m-and-g-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">M&G
                     </h1>
@@ -60,13 +60,13 @@
                         onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
                         class="view-button flex items-center cursor-pointer bg-black rounded-full text-white px-3 py-2 gap-1 w-fit mt-6">
                         <p>Discover</p>
-                        <img src="{{ asset('arrow short.svg') }}">
+                        <img src="{{ asset('images/arrow short.svg') }}">
                     </a>
                 </div>
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('shark.png') }}" class="w-[510px]" data-aos="fade-up" data-aos-duration="800">
+                <img src="{{ asset('images/shark.png') }}" class="w-[510px]" data-aos="fade-up" data-aos-duration="800">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         Shark Ninja</h1>
@@ -80,7 +80,7 @@
                         onmouseover="changeArrow(this)" onmouseout="resetArrow(this)"
                         class="view-button flex items-center cursor-pointer bg-black rounded-full text-white px-3 py-2 gap-1 w-fit mt-6">
                         <p>Discover</p>
-                        <img src="{{ asset('arrow short.svg') }}">
+                        <img src="{{ asset('images/arrow short.svg') }}">
                     </a>
                 </div>
             </div>

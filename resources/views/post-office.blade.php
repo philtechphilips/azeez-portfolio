@@ -32,7 +32,7 @@
         </div>
 
 
-        <img class="absolute top-0 right-0 left-0  w-full h-[736px] z-0"  src="{{ asset('post-office-bg.png') }}">
+        <img class="absolute top-0 right-0 left-0  w-full h-[736px] z-0"  src="{{ asset('images/post-office-bg.png') }}">
         <div class="w-full absolute top-0 right-0 left-0 h-[736px] opacity-90" style="background-image: linear-gradient(to right bottom, #010413, #080a1c, #0d1024, #10142c, #141735);');"></div>
     </section>
 
@@ -59,20 +59,20 @@
 
     <section
         class="md:px-48 px-5 bg-[#f5f5f5] md:py-20 py-10 md:gap-16 gap-8 flex items-center md:flex-row flex-col justify-center">
-        <img src="{{ asset('image 21.png') }}" data-aos="fade-right" data-aos-duration="1000">
-        <img src="{{ asset('image 31.png') }}" data-aos="fade-left" data-aos-duration="1000">
+        <img src="{{ asset('images/image 21.png') }}" data-aos="fade-right" data-aos-duration="1000">
+        <img src="{{ asset('images/image 31.png') }}" data-aos="fade-left" data-aos-duration="1000">
     </section>
 
     <section class="md:px-48 px-5 md:py-20 py-10 md:gap-24 gap-8 flex md:flex-row items-start flex-col justify-center">
         <div class="flex flex-col gap-3">
             <p class="text-[#9E9E9E] text-[10px] font-[Inter]" data-aos="fade-up" data-aos-duration="1000">A visual
                 representation of how the teams are connected</p>
-            <img data-aos="fade-right" data-aos-duration="1000" src="{{ asset('image 5.png') }}">
+            <img data-aos="fade-right" data-aos-duration="1000" src="{{ asset('images/image 5.png') }}">
         </div>
         <div class="flex flex-col gap-3">
             <p data-aos="fade-up" data-aos-duration="1000" class="text-[#9E9E9E] text-[10px] font-[Inter]">A visual
                 representation of how the design system is reviewded</p>
-            <img data-aos="fade-left" data-aos-duration="1000" src="{{ asset('image 9.png') }}">
+            <img data-aos="fade-left" data-aos-duration="1000" src="{{ asset('images/image 9.png') }}">
         </div>
     </section>
 
@@ -116,14 +116,14 @@
     </section>
 
     <section class="md:px-48 px-5 bg-[#f5f5f5] md:py-20 py-10 gap-4 flex items-center md:flex-row flex-col justify-center">
-        <img src="{{ asset('image 1.png') }}" data-aos="fade-left" data-aos-duration="1000">
-        <img src="{{ asset('justice image.png') }}" data-aos="fade-right" data-aos-duration="1000">
+        <img src="{{ asset('images/image 1.png') }}" data-aos="fade-left" data-aos-duration="1000">
+        <img src="{{ asset('images/justice image.png') }}" data-aos="fade-right" data-aos-duration="1000">
     </section>
 
     <section class="md:px-48 px-5 bg-[#fff] md:py-20 py-10 flex flex-col gap-4 justify-center">
         <p class="text-[#9E9E9E] font-[Inter]" data-aos="fade-left" data-aos-duration="1000">A visual representation of the
             Horizon Solution</p>
-        <img src="{{ asset('image 4.png') }}" data-aos="fade-right" data-aos-duration="1000">
+        <img src="{{ asset('images/image 4.png') }}" data-aos="fade-right" data-aos-duration="1000">
     </section>
 
     <section class="w-full md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 md:pt-20">
@@ -170,9 +170,9 @@
 
     <section
         class="md:px-48 px-5 bg-[#f5f5f5] md:py-20 py-10 flex items-center md:flex-row  gap-4 flex-col justify-center">
-        <img src="{{ asset('image 6.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up" data-aos-duration="1000">
-        <img src="{{ asset('image 7.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up" data-aos-duration="1000">
-        <img src="{{ asset('image 8.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up" data-aos-duration="1000">
+        <img src="{{ asset('images/image 6.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up" data-aos-duration="1000">
+        <img src="{{ asset('images/image 7.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up" data-aos-duration="1000">
+        <img src="{{ asset('images/image 8.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up" data-aos-duration="1000">
     </section>
 
     <section class="w-full flex flex-col items-center justify-center">
@@ -197,7 +197,7 @@
     </section>
 
     <section class="md:px-48 px-5 bg-[#f5f5f5] md:py-20 py-10 flex items-center md:flex-row flex-col justify-center">
-        <img src="{{ asset('change.png') }}" data-aos="fade-left" data-aos-duration="1000">
+        <img src="{{ asset('images/change.png') }}" data-aos="fade-left" data-aos-duration="1000">
     </section>
 
     <section data-aos="fade-right" data-aos-duration="1000"
@@ -209,7 +209,7 @@
     </section>
 
     <section class="md:px-48 px-5 bg-[#f5f5f5] md:py-20 py-10 flex items-center md:flex-row flex-col justify-center">
-        <img data-aos="fade-up" data-aos-duration="1000" src="{{ asset('change-log.png') }}" class="w-[334px]">
+        <img data-aos="fade-up" data-aos-duration="1000" src="{{ asset('images/change-log.png') }}" class="w-[334px]">
     </section>
 
     <section class="md:px-48 px-5 bg-[#fff] md:py-20 py-10 flex md:flex-row flex-col justify-between md:items-start">
@@ -222,7 +222,7 @@
     </section>
 
     <section class="md:px-48 px-5 bg-[#f5f5f5] md:py-20 py-10 flex md:flex-row flex-col justify-between">
-        <img data-aos="fade-up" data-aos-duration="1000" src="{{ asset('image-2.png') }}">
+        <img data-aos="fade-up" data-aos-duration="1000" src="{{ asset('images/image-2.png') }}">
     </section>
 
 
@@ -239,7 +239,7 @@
     </section>
 
     <section class="md:px-48 px-5 bg-[#f5f5f5] md:py-20 py-10">
-        <img data-aos="fade-up" data-aos-duration="1000" src="{{ asset('Screenshot 2024-02-12 at 21.50 1.png') }}">
+        <img data-aos="fade-up" data-aos-duration="1000" src="{{ asset('images/Screenshot 2024-02-12 at 21.50 1.png') }}">
     </section>
 
     <section class="w-full flex flex-col items-center justify-center">
@@ -258,7 +258,7 @@
                     insights on the solution and its application in meeting customer requirements.</p>
             </div>
         </div>
-        <img src="{{ asset('post-office-project.png') }}" data-aos="fade-up" data-aos-duration="1000"
+        <img src="{{ asset('images/post-office-project.png') }}" data-aos="fade-up" data-aos-duration="1000"
             class="md:w-[785px] w-[350px]">
     </section>
 

@@ -18,7 +18,7 @@
     <link rel="icon" type="image/png" href="{{ asset('Asset 4@4x 1.png') }}" sizes="any">
     @vite('resources/css/app.css')
 
-    <!-- Styles -->
+   
 </head>
 
 <body>
@@ -79,6 +79,10 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+
+    <script>
+
     </script>
     {{-- Animate on scroll --}}
     @yield('script')
