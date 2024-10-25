@@ -10,9 +10,9 @@
                 <div class="flex flex-col gap-2">
                     <h1 class="text-white font-light font-[Inter]">LET’S CONNECT 🤝</h1>
                     <div class="flex gap-1 text-white items-center">
-                        <a href="#" class="text-white font-semibold text-xs font-[Inter]">Linkedin</a> |
+                        <a href="https://www.linkedin.com/in/azeez-adebayo-661b45b7/" class="text-white font-semibold text-xs font-[Inter]">Linkedin</a> |
                         <a href="#" class="text-white font-semibold text-xs font-[Inter]">Resume</a> |
-                        <a href="#" class="text-white font-semibold text-xs font-[Inter]">Work</a> 
+                        <a href="/work" class="text-white font-semibold text-xs font-[Inter]">Work</a>
                     </div>
                 </div>
         </div>

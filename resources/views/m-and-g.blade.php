@@ -61,7 +61,7 @@
     </section>
 
     <section class="w-full bg-[#000] md:px-48  -mt-5 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
-        <video src="" controls></video>
+        <video src="/images/M&G VIDEO.mp4" autoplay="true" muted loop></video>
     </section>
 
     <section class="w-full bg-[#000] md:px-48 px-5  -mt-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
