@@ -46,7 +46,8 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('images/m-and-g-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
+                <img src="{{ asset('images/m-and-g-home.png') }}" data-aos="fade-up" data-aos-duration="800"
+                    class="w-[510px]">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">M&G
                     </h1>
@@ -91,39 +92,14 @@
 
 @section('script')
     <script>
-        const skillImage = document.querySelector('.image-ai img');
-
-        document.querySelector('.hero').addEventListener('mouseover', function() {
-            skillImage.src = 'Frame.png';
-        });
-
-        document.querySelector('.hero').addEventListener('mouseout', function() {
-            skillImage.src = 'image 11.png';
-        });
-    </script>
-
-    <script>
         function changeArrow(element) {
             let img = element.querySelector('img');
-            img.src = "long arrow.svg";
+            img.src = "images/long arrow.svg";
         }
 
         function resetArrow(element) {
             let img = element.querySelector('img');
-            img.src = "arrow short.svg";
+            img.src = "images/arrow short.svg";
         }
-    </script>
-
-    <script>
-        window.addEventListener('scroll', function() {
-            const scrollY = window.scrollY;
-            const skillImage = document.querySelector('.image-ai img');
-
-            if (scrollY > 10) {
-                skillImage.src = 'Frame.png';
-            } else {
-                skillImage.src = 'image 11.png';
-            }
-        });
     </script>
 @endsection

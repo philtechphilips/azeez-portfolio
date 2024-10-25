@@ -15,7 +15,7 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <link rel="stylesheet" href="{{ asset('styles/global.css') }}">
-    <link rel="icon" type="image/png" href="{{ asset('Asset 4@4x 1.png') }}" sizes="any">
+    <link rel="icon" type="image/png" href="{{ asset('images/Asset 4@4x 1.png') }}" sizes="any">
     @vite('resources/css/app.css')
 
    

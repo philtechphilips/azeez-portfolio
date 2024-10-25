@@ -53,7 +53,7 @@
     </section>
 
     <section class="w-full bg-[#fff] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20">
-        <img src="{{asset("shark-projects.png")}}" alt="">
+        <img src="{{asset("images/shark-projects.png")}}" alt="">
     </section>
 
     <section class="w-full bg-[#fff] md:px-48 px-5 flex md:flex-row flex-col justify-between md:pb-20">
@@ -71,11 +71,11 @@
 
     <section class="w-full bg-[#fff] md:px-48 px-5 flex md:gap-20 gap-10 md:flex-row flex-col justify-between py-20 pt-0">
         <div class="mt-28">
-            <img src="{{asset("mask-group.png")}}" alt="">
+            <img src="{{asset("images/mask-group.png")}}" alt="">
         </div>
 
         <div class="mt-0">
-            <img src="{{asset("Flying Macbook Air 2022 Perspective Mockup.png")}}" class="md:rounded-[80px] rounded-[40px]" alt="">
+            <img src="{{asset("images/Flying Macbook Air 2022 Perspective Mockup.png")}}" class="md:rounded-[80px] rounded-[40px]" alt="">
         </div>
     </section>
 
@@ -86,7 +86,7 @@
         </div>
 
             <div class="md:mt-16 mt-7">
-                <img src="{{asset("design-process.png")}}" alt="">
+                <img src="{{asset("images/design-process.png")}}" alt="">
             </div>
     </section>
 
@@ -97,7 +97,7 @@
         </div>
 
             <div class="md:mt-16 mt-7">
-                <img src="{{asset("competitor.png")}}" alt="">
+                <img src="{{asset("images/competitor.png")}}" alt="">
             </div>
     </section>
 
@@ -108,7 +108,7 @@
         </div>
 
             <div class="md:mt-16 mt-7">
-                <img src="{{asset("colour-pallete.png")}}" alt="">
+                <img src="{{asset("images/colour-pallete.png")}}" alt="">
             </div>
     </section>
 
@@ -119,7 +119,7 @@
         </div>
 
             <div class="md:mt-16 mt-7">
-                <img src="{{asset("typography.png")}}" alt="">
+                <img src="{{asset("images/typography.png")}}" alt="">
             </div>
     </section>
 
@@ -130,7 +130,7 @@
         </div>
 
             <div class="md:mt-16 mt-7">
-                <img src="{{asset("typography.png")}}" alt="">
+                <img src="{{asset("images/typography.png")}}" alt="">
             </div>
     </section>
 @endsection

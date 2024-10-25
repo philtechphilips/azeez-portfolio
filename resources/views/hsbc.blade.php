@@ -3,7 +3,7 @@
 @section('content')
     <section class="w-full h-[730px] relative md:px-48 px-5 z-50 bg-black">
         <a href="/" class="flex relative z-[100] pt-20 items-center gap-3">
-            <img src="{{ asset("back-arrow.svg") }}" alt="">
+            <img src="{{ asset("images/back-arrow.svg") }}" alt="">
             <p class="text-white font-medium text-xl">Back</p>
         </a>
         <div class="absolute top-48 right-0 md:left-48 left-5 z-[1000]">

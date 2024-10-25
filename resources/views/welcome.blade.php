@@ -43,7 +43,7 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('images/post-office-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px] border rounded-3xl border-black">
+                <img src="{{ asset('images/post-office-home.svg') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px] border rounded-3xl border-black">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Post
                         office</h1>
@@ -61,7 +61,7 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('images/m-and-g-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
+                <img src="{{ asset('images/m-and-g-home.svg') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">M&G
                     </h1>
@@ -81,7 +81,7 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('images/shark.png') }}" class="w-[510px]" data-aos="fade-up" data-aos-duration="800">
+                <img src="{{ asset('images/shark.svg') }}" class="w-[510px]" data-aos="fade-up" data-aos-duration="800">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         Shark Ninja</h1>
@@ -108,11 +108,11 @@
         const skillImage = document.querySelector('.image-ai img');
 
         document.querySelector('.hero').addEventListener('mouseover', function() {
-            skillImage.src = 'images/Frame.png';
+            skillImage.src = 'images/Frame.svg';
         });
 
         document.querySelector('.hero').addEventListener('mouseout', function() {
-            skillImage.src = 'images/image 11.png';
+            skillImage.src = 'images/image 11.svg';
         });
     </script>
 
@@ -134,9 +134,9 @@
             const skillImage = document.querySelector('.image-ai img');
 
             if (scrollY > 10) {
-                skillImage.src = 'images/Frame.png';
+                skillImage.src = 'images/Frame.svg';
             }else{
-                skillImage.src = 'images/image 11.png';
+                skillImage.src = 'images/image 11.svg';
             }
         });
     </script>

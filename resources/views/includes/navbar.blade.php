@@ -2,7 +2,7 @@
 <header class="w-full bg-white py-3 md:px-28 px-5 header-shadow z-[1000] mb-[2px]">
     <nav class="flex items-center justify-between">
         <a href="/">
-            <img src="{{ asset('logo.png') }}">
+            <img src="{{ asset('images/Asset 4@4x 1.png') }}">
         </a>
 
         <ul class="hidden md:flex items-center gap-12">
