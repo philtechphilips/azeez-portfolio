@@ -31,7 +31,8 @@
         </div>
 
         <img src="{{ asset('images/shark-bg.png') }}" class="hidden md:flex w-full md:h-full top-0 absolute right-0">
-        <img src="{{ asset('images/shark mobile-bg.png') }}" class="w-full md:hidden flex md:h-full top-48 absolute right-0">
+        <img src="{{ asset('images/shark mobile-bg.png') }}"
+            class="w-full md:hidden flex md:h-full top-48 absolute right-0">
     </section>
 
     <section class="w-full bg-[#fff] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
@@ -53,7 +54,7 @@
     </section>
 
     <section class="w-full bg-[#fff] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20">
-        <img src="{{asset("images/shark-projects.png")}}" alt="">
+        <img src="{{ asset('images/shark-projects.png') }}" alt="">
     </section>
 
     <section class="w-full bg-[#fff] md:px-48 px-5 flex md:flex-row flex-col justify-between md:pb-20">
@@ -64,18 +65,23 @@
 
         <div class="md:w-[518px]">
             <p class="text-[#000] text-center md:text-left font-[Inter]" data-aos="fade-up">
-                The Shark e-commerce website was designed to enhance the customer buying experience through user-centric design and intuitive UI/UX. We streamlined the checkout process, ensuring a fast and hassle-free purchase journey. The website was made fully responsive and accessible, providing a consistent experience across all devices. Maintaining visual appeal and brand consistency was a key focus, alongside performance optimisation for smooth functionality.
+                The Shark e-commerce website was designed to enhance the customer buying experience through user-centric
+                design and intuitive UI/UX. We streamlined the checkout process, ensuring a fast and hassle-free purchase
+                journey. The website was made fully responsive and accessible, providing a consistent experience across all
+                devices. Maintaining visual appeal and brand consistency was a key focus, alongside performance optimisation
+                for smooth functionality.
             </p>
         </div>
     </section>
 
     <section class="w-full bg-[#fff] md:px-48 px-5 flex md:gap-20 gap-10 md:flex-row flex-col justify-between py-20 pt-0">
         <div class="mt-28">
-            <img src="{{asset("images/mask-group.png")}}" alt="">
+            <img src="{{ asset('images/mask-group.png') }}" alt="">
         </div>
 
         <div class="mt-0">
-            <img src="{{asset("images/Flying Macbook Air 2022 Perspective Mockup.png")}}" class="md:rounded-[80px] rounded-[40px]" alt="">
+            <img src="{{ asset('images/Flying Macbook Air 2022 Perspective Mockup.png') }}"
+                class="md:rounded-[80px] rounded-[40px]" alt="">
         </div>
     </section>
 
@@ -85,9 +91,9 @@
                 data-aos-duration="1000">Design process</h1>
         </div>
 
-            <div class="md:mt-16 mt-7">
-                <img src="{{asset("images/design-process.png")}}" alt="">
-            </div>
+        <div class="md:mt-16 mt-7">
+            <img src="{{ asset('images/design-process.png') }}" alt="">
+        </div>
     </section>
 
     <section class="w-full bg-[#fff] md:px-48 px-5 justify-between pb-20">
@@ -96,9 +102,9 @@
                 data-aos-duration="1000">Competitors analysis</h1>
         </div>
 
-            <div class="md:mt-16 mt-7">
-                <img src="{{asset("images/competitor.png")}}" alt="">
-            </div>
+        <div class="md:mt-16 mt-7">
+            <img src="{{ asset('images/competitor.png') }}" alt="">
+        </div>
     </section>
 
     <section class="w-full bg-[#fff] md:px-48 px-5 justify-between pb-20">
@@ -107,9 +113,9 @@
                 data-aos-duration="1000">Colour palette</h1>
         </div>
 
-            <div class="md:mt-16 mt-7">
-                <img src="{{asset("images/colour-pallete.png")}}" alt="">
-            </div>
+        <div class="md:mt-16 mt-7">
+            <img src="{{ asset('images/colour-pallete.png') }}" alt="">
+        </div>
     </section>
 
     <section class="w-full bg-[#fff] md:px-48 px-5 justify-between pb-20">
@@ -118,19 +124,45 @@
                 data-aos-duration="1000">Typography</h1>
         </div>
 
-            <div class="md:mt-16 mt-7">
-                <img src="{{asset("images/typography.png")}}" alt="">
-            </div>
+        <div class="md:mt-16 mt-7">
+            <img src="{{ asset('images/typography.png') }}" alt="">
+        </div>
     </section>
 
     <section class="w-full bg-[#fff] md:px-48 px-5 justify-between pb-20">
         <div class="mb-0">
             <h1 class="text-[#000] text-xl text-center md:text-left font-[Inter] font-medium" data-aos="fade-up"
-                data-aos-duration="1000">Typography</h1>
+                data-aos-duration="1000">Grid & Breakpoint</h1>
         </div>
 
-            <div class="md:mt-16 mt-7">
-                <img src="{{asset("images/typography.png")}}" alt="">
+        <div class="md:mt-16 flex md:flex-row flex-col gap-5 items-end mt-7">
+            <div class="md:w-1/2 mb-4">
+                <img src="{{ asset('images/grid-1.png') }}" data-aos="fade-up" data-aos-duration="500" alt="">
             </div>
+            <div class="flex flex-col gap-3">
+                <img class="md:w-80 w-full" data-aos="fade-up" data-aos-duration="500"
+                    src="{{ asset('images/grid-2.png') }}" alt="">
+                <img class="md:w-80 w-full" data-aos="fade-up" data-aos-duration="500"
+                    src="{{ asset('images/grid-3.png') }}" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section class="w-full bg-[#fff] md:px-48 px-5 justify-between pb-20">
+        <div class="mb-0">
+            <h1 class="text-[#000] text-xl text-center md:text-left font-[Inter] font-medium" data-aos="fade-up"
+                data-aos-duration="1000">High fidelity</h1>
+        </div>
+
+        <div class="md:mt-16 flex md:flex-row flex-col gap-5 mt-7">
+            <div class="md:w-1/4 mb-4">
+                <img data-aos="fade-up" src="{{ asset('images/high-fidelity-m.png') }}" data-aos="fade-up" data-aos-duration="500"
+                    alt="">
+            </div>
+            <div class="md:w-3/4 flex flex-col gap-3">
+                <img class="w-full" data-aos="fade-up" data-aos-duration="500"
+                    src="{{ asset('images/high-fidelti-d.png') }}" alt="">
+            </div>
+        </div>
     </section>
 @endsection
