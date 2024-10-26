@@ -100,6 +100,16 @@
             </div>
         </div>
     </section>
+
+    <!-- In your home.blade.php or relevant Blade view -->
+@if(session('success'))
+<script>
+    $(document).ready(function() {
+        toastr.success("{{ session('success') }}");
+    });
+</script>
+@endif
+
 @endsection
 
 

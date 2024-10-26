@@ -51,7 +51,7 @@ Route::post('/access-code', function (Request $request) {
 
     if ($request->input('access_code') === config('app.access_code')) {
         session(['access_code' => $request->input('access_code')]);
-        return redirect()->intended('/');
+        return redirect()->intended('/')->with('success', 'Access code accepted! Kindly access restricted page');
     }
 
     return redirect()->back()->withErrors(['access_code' => 'Invalid access code.']);

@@ -16,6 +16,14 @@
 
     <link rel="stylesheet" href="{{ asset('styles/global.css') }}">
     <link rel="icon" type="image/png" href="{{ asset('images/Asset 4@4x 1.png') }}" sizes="any">
+    <!-- In the head section of your layout -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css">
+
+    <!-- Before the closing body tag -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+
     @vite('resources/css/app.css')
 
 
@@ -26,7 +34,7 @@
         <main class="">
             {{-- @include('includes.navbar') --}}
             @yield('content')
-          
+
         </main>
     </div>
 
@@ -81,9 +89,10 @@
         AOS.init();
     </script>
 
-    <script></script>
+
     {{-- Animate on scroll --}}
     @yield('script')
+
 </body>
 
 </html>
