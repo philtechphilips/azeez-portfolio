@@ -11,7 +11,7 @@
                     <h1 class="text-white font-light font-[Inter]">LET’S CONNECT 🤝</h1>
                     <div class="flex gap-1 text-white items-center">
                         <a href="https://www.linkedin.com/in/azeez-adebayo-661b45b7/" class="text-white font-semibold text-xs font-[Inter]">Linkedin</a> |
-                        <a href="#" class="text-white font-semibold text-xs font-[Inter]">Resume</a> |
+                        <a target="_blank" href="https://drive.google.com/file/d/1DLDW7IUnKwsL1IPC_KGHtbYqLvND_HsD/view?usp=drive_link" class="text-white font-semibold text-xs font-[Inter]">Resume</a> |
                         <a href="/work" class="text-white font-semibold text-xs font-[Inter]">Work</a>
                     </div>
                 </div>
