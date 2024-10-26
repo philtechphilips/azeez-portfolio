@@ -3,7 +3,7 @@
 
 @section('content')
     @include('includes.navbar')
-
+<div class="max-w-[1440px] flex justify-center">
     <section
         class="flex flex-col md:flex-row items-center justify-center md:justify-between md:px-28 px-5 md:gap-48 gap-10 cursor-pointer pt-5 pb-20 hero">
         <div class="image-ai" class="md:w-[515px] h-[586px]">
@@ -15,7 +15,7 @@
                 class="md:w-[342px] md:h-[373.54px]">
         </div>
     </section>
-
+</div>
     <section class="flex flex-col justify-center md:px-28 px-5 pb-28">
         <div class="flex flex-col items-center justify-center gap-3 mb-8 w-full">
             <h1 class="font-semibold">Selected work</h1>

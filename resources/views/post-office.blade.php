@@ -300,4 +300,6 @@
                 Jongh for supporting my growth and for teaching me lessons that I will carry on to my future endeavors! </p>
         </div>
     </section>
+
+    @include('includes.footer')
 @endsection

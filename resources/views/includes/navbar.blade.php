@@ -1,6 +1,6 @@
 {{-- Desktop navigation --}}
 <header class="w-full bg-white py-3 md:px-28 px-5 header-shadow z-[1000] mb-[2px]">
-    <nav class="flex items-center justify-between">
+    <nav class="flex max-w-[1280px] items-center justify-between">
         <a href="/">
             <img src="{{ asset('images/Asset 4@4x 1.png') }}">
         </a>

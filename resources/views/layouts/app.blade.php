@@ -18,15 +18,15 @@
     <link rel="icon" type="image/png" href="{{ asset('images/Asset 4@4x 1.png') }}" sizes="any">
     @vite('resources/css/app.css')
 
-   
+
 </head>
 
 <body>
-    <div id="app">
+    <div id="app max-w-[1440px]">
         <main class="">
             {{-- @include('includes.navbar') --}}
             @yield('content')
-            @include('includes.footer')
+          
         </main>
     </div>
 
@@ -81,9 +81,7 @@
         AOS.init();
     </script>
 
-    <script>
-
-    </script>
+    <script></script>
     {{-- Animate on scroll --}}
     @yield('script')
 </body>

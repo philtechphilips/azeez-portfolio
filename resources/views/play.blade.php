@@ -81,6 +81,8 @@
             </a>
         </div>
     </section>
+
+    @include('includes.footer')
 @endsection
 
 @section('script')

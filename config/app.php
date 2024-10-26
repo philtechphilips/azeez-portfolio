@@ -17,6 +17,10 @@ return [
 
     'name' => env('APP_NAME', 'Laravel'),
 
+    // Acces Code For Pages
+    'access_code' => env('ACCESS_CODE', 'default_code'),
+
+
     /*
     |--------------------------------------------------------------------------
     | Application Environment
