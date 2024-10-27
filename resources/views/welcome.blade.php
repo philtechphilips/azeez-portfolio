@@ -61,7 +61,7 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('images/m-and-g-home.svg') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
+                <img src="{{ asset('images/m-and-g-home.png') }}" data-aos="fade-up" data-aos-duration="800" class="w-[510px]">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">M&G
                     </h1>
@@ -81,7 +81,7 @@
             </div>
 
             <div class="w-[510px]">
-                <img src="{{ asset('images/shark.svg') }}" class="w-[510px]" data-aos="fade-up" data-aos-duration="800">
+                <img src="{{ asset('images/shark.png') }}" class="w-[510px]" data-aos="fade-up" data-aos-duration="800">
                 <div class="flex flex-col gap-1 mt-8">
                     <h1 class="text-3xl font-medium" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
                         Shark Ninja</h1>
@@ -101,6 +101,7 @@
         </div>
     </section>
 
+    @include('includes.footer')
     <!-- In your home.blade.php or relevant Blade view -->
 @if(session('success'))
 <script>
