@@ -3,9 +3,9 @@
 
 @section('content')
     @include('includes.navbar')
-<div class="max-w-[1440px] flex justify-center">
+<div class="flex justify-center">
     <section
-        class="flex flex-col md:flex-row items-center justify-center md:justify-between md:px-28 px-5 md:gap-48 gap-10 cursor-pointer pt-5 pb-20 hero">
+        class="flex max-w-[1440px] flex-col md:flex-row items-center justify-center md:justify-between md:px-28 px-5 md:gap-48 gap-10 cursor-pointer pt-5 pb-20 hero">
         <div class="image-ai" class="md:w-[515px] h-[586px]">
             <img src="{{ asset('images/image 11.png') }}" data-aos="fade-right" data-aos-duration="800"
                 class="md:w-[515px] md:h-[586px]">
@@ -119,7 +119,7 @@
         const skillImage = document.querySelector('.image-ai img');
 
         document.querySelector('.hero').addEventListener('mouseover', function() {
-            skillImage.src = 'images/Frame.svg';
+            skillImage.src = 'images/Frame.png';
         });
 
         document.querySelector('.hero').addEventListener('mouseout', function() {
