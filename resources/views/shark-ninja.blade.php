@@ -2,16 +2,18 @@
 
 @section('content')
     <section class="w-full h-[730px] relative md:px-48 px-5 z-50 bg-[#222424]">
-        <a href="/" class="flex relative z-[100] pt-20 items-center gap-3">
-            <img src="{{ asset('images/back-arrow.svg') }}" alt="">
-            <p class="text-white font-medium text-xl">Back</p>
+        <a href="/" class="flex relative z-[100] pt-20 items-center gap-3 group">
+            <img src="{{ asset('images/back-arrow.svg') }}" alt=""
+                class="transition-transform duration-300 group-hover:-translate-x-1">
+            <p class="text-white font-medium text-xl transition-opacity duration-300 group-hover:opacity-80">Back</p>
         </a>
+
         <div class="absolute top-48 right-0 md:left-48 left-5 z-[1000]">
             <h1 class="text-white z-[1000] font-semibold text-4xl mb-12 font-[Inter]" data-aos="fade-up">Shark</h1>
 
             <div class="flex flex-col gap-1 mb-6">
                 <h4 class="text-white font-bold font-[Inter]" data-aos="fade-up">Role</h4>
-                <h4 class="text-white font-light font-[Inter]" data-aos="fade-up">Senior Ui Designer</h4>
+                <h4 class="text-white font-light font-[Inter]" data-aos="fade-up">Senior UI Designer</h4>
             </div>
 
             <div class="flex flex-col gap-1 mb-6">
@@ -30,12 +32,13 @@
             </div>
         </div>
 
-        <img src="{{ asset('images/shark-bg.png') }}" class="hidden md:flex w-full md:h-full top-0 absolute right-0">
+        <img src="{{ asset('images/shark-bg.png') }}"
+            class="hidden 2xl:h-[900px] mb-96 md:flex w-full md:h-full top-0 absolute right-0">
         <img src="{{ asset('images/shark mobile-bg.png') }}"
             class="w-full md:hidden flex md:h-full top-48 absolute right-0">
     </section>
 
-    <section class="w-full bg-[#fff] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
+    <section class="w-full 2xl:mt-48 bg-[#fff] md:px-48 px-5 flex md:flex-row flex-col justify-between pb-20 pt-20">
         <div class="mb-4">
             <h1 class="text-[#000] text-2xl font-semibold text-center md:text-left font-[Inter]" data-aos="fade-up"
                 data-aos-duration="1000">Role</h1>
@@ -102,8 +105,8 @@
                 data-aos-duration="1000">Competitors analysis</h1>
         </div>
 
-        <div class="md:mt-16 mt-7">
-            <img src="{{ asset('images/competitor.png') }}" alt="">
+        <div class="md:mt-16 mt-7 flex items-center justify-center">
+            <img class="w-[95%]" src="{{ asset('images/competitor.png') }}" alt="">
         </div>
     </section>
 
@@ -113,8 +116,8 @@
                 data-aos-duration="1000">Colour palette</h1>
         </div>
 
-        <div class="md:mt-16 mt-7">
-            <img src="{{ asset('images/colour-pallete.png') }}" alt="">
+        <div class="md:mt-16 mt-7 flex items-center justify-center">
+            <img class="w-[95%]" src="{{ asset('images/colour-pallete.png') }}" alt="">
         </div>
     </section>
 
@@ -124,8 +127,8 @@
                 data-aos-duration="1000">Typography</h1>
         </div>
 
-        <div class="md:mt-16 mt-7">
-            <img src="{{ asset('images/typography.png') }}" alt="">
+        <div class="md:mt-16 mt-7 flex items-center justify-center">
+            <img class="w-[95%]" src="{{ asset('images/typography.png') }}" alt="">
         </div>
     </section>
 
@@ -156,8 +159,8 @@
 
         <div class="md:mt-16 flex md:flex-row flex-col gap-5 mt-7">
             <div class="md:w-1/4 mb-4">
-                <img data-aos="fade-up" src="{{ asset('images/high-fidelity-m.png') }}" data-aos="fade-up" data-aos-duration="500"
-                    alt="">
+                <img data-aos="fade-up" src="{{ asset('images/high-fidelity-m.png') }}" data-aos="fade-up"
+                    data-aos-duration="500" alt="">
             </div>
             <div class="md:w-3/4 flex flex-col gap-3">
                 <img class="w-full" data-aos="fade-up" data-aos-duration="500"

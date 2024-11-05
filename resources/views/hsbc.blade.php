@@ -2,9 +2,10 @@
 
 @section('content')
     <section class="w-full h-[730px] relative md:px-48 px-5 z-50 bg-black">
-        <a href="/" class="flex relative z-[100] pt-20 items-center gap-3">
-            <img src="{{ asset("images/back-arrow.svg") }}" alt="">
-            <p class="text-white font-medium text-xl">Back</p>
+        <a href="/" class="flex relative z-[100] pt-20 items-center gap-3 group">
+            <img src="{{ asset('images/back-arrow.svg') }}" alt=""
+                class="transition-transform duration-300 group-hover:-translate-x-1">
+            <p class="text-white font-medium text-xl transition-opacity duration-300 group-hover:opacity-80">Back</p>
         </a>
         <div class="absolute top-48 right-0 md:left-48 left-5 z-[1000]">
             <h1 class="text-white z-[1000] font-semibold text-4xl mb-12 font-[Inter]" data-aos="fade-up">HSBC</h1>
@@ -30,7 +31,9 @@
             </div>
         </div>
 
-        <img src="{{ asset('images/hsbc-bg.png') }}" class="w-full h-full top-0 absolute right-0">
+       <div class="md:w-full w-[700px] h-[700px]  md:h-full top-0 absolute right-0">
+        <img src="{{ asset('images/hsbc-bg.png') }}" class="md:w-full w-[700px] h-[600px]  md:h-full" >
+       </div>
         <div class="w-full absolute top-0 right-0 left-0 h-[736px] opacity-90 bg-[#080404]"></div>
     </section>
 
@@ -93,7 +96,8 @@
         </div>
     </section>
 
-    <section class="md:px-48 px-5 bg-[#000] md:py-20 py-10 -mt-2 gap-4 flex items-center md:flex-row flex-col justify-center">
+    <section
+        class="md:px-48 px-5 bg-[#000] md:py-20 py-10 -mt-2 gap-4 flex items-center md:flex-row flex-col justify-center">
         <img src="{{ asset('images/app.png') }}" class="w-[516px]" data-aos="fade-up" data-aos-duration="1000">
     </section>
 
@@ -184,13 +188,17 @@
     </section>
 
     <section class="md:px-48 px-5 bg-[#000] md:pb-10 py-10 flex flex-col gap-4">
-        <h4 class="text-white font-semibold text-sm text-center md:text-left" data-aos="fade-up" data-aos-duration="1000">Profile update Blueprint</h4>
+        <h4 class="text-white font-semibold text-sm text-center md:text-left" data-aos="fade-up"
+            data-aos-duration="1000">Profile update Blueprint</h4>
         <div class="flex flex-col md:flex-row items-start justify-between">
             <div class="flex md:w-1/3 flex-col">
-                <div class="bg-[#DB0011] rounded-lg pl-4 pr-10 py-4 text-white" data-aos="fade-up" data-aos-duration="1000">01_Accounts</div>
-                <img class="py-20" src="{{ asset('images/Account.png') }}" data-aos="fade-right" data-aos-duration="1000">
+                <div class="bg-[#DB0011] rounded-lg pl-4 pr-10 py-4 text-white" data-aos="fade-up"
+                    data-aos-duration="1000">01_Accounts</div>
+                <img class="py-20" src="{{ asset('images/Account.png') }}" data-aos="fade-right"
+                    data-aos-duration="1000">
 
-                <div class="border border-[#D9D9D9] rounded-lg p-5 flex flex-col gap-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="border border-[#D9D9D9] rounded-lg p-5 flex flex-col gap-2" data-aos="fade-up"
+                    data-aos-duration="1000">
                     <h1 class="text-white text-xl font-base">01_Home</h1>
                     <p class="text-xs text-white">Display lists of accounts</p>
                     <p class="font-semibold text-[#DB0011] text-xs">Demonstration purpose only</p>
@@ -200,7 +208,8 @@
                     <img src="{{ asset('images/3_2.png') }}">
                 </div>
 
-                <div class="border border-[#D9D9D9] rounded-lg p-3 flex flex-col gap-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="border border-[#D9D9D9] rounded-lg p-3 flex flex-col gap-2" data-aos="fade-up"
+                    data-aos-duration="1000">
                     <h1 class="text-white text-base">03.02_About me - Personal Details</h1>
                     <p class="text-sm font-[Causten-Regular] text-white">About me page consists of three tabs grouping data
                         type. The default tab is Personal Tab. </p>
@@ -292,10 +301,13 @@
             </div>
 
             <div class="flex md:w-1/3 flex-col">
-                <div class="bg-[#DB0011] rounded-lg pl-4 pr-10 py-4 text-white" data-aos="fade-up" data-aos-duration="1000">02_Profile</div>
-                <img class="py-20" src="{{ asset('images/profile.png') }}" data-aos="fade-right" data-aos-duration="1000">
+                <div class="bg-[#DB0011] rounded-lg pl-4 pr-10 py-4 text-white" data-aos="fade-up"
+                    data-aos-duration="1000">02_Profile</div>
+                <img class="py-20" src="{{ asset('images/profile.png') }}" data-aos="fade-right"
+                    data-aos-duration="1000">
 
-                <div class="border border-[#D9D9D9] rounded-lg p-5 flex flex-col gap-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="border border-[#D9D9D9] rounded-lg p-5 flex flex-col gap-2" data-aos="fade-up"
+                    data-aos-duration="1000">
                     <h1 class="text-white text-xl font-base">02_Profile</h1>
                     <p class="text-xs text-white">Profile setting with Update your details within the Profile card.</p>
                     <p class="font-semibold text-[#DB0011] text-xs">Demonstration purpose only</p>
@@ -305,18 +317,23 @@
                     <img class="w-full" src="{{ asset('images/locked.png') }}">
                 </div>
 
-                <div class="border border-[#D9D9D9] rounded-lg p-3 flex flex-col gap-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="border border-[#D9D9D9] rounded-lg p-3 flex flex-col gap-2" data-aos="fade-up"
+                    data-aos-duration="1000">
                     <h1 class="text-white text-base">Contact details locked error</h1>
                     <p class="text-sm font-[Causten-Regular] text-white">
                         On ‘Chat with us’ the user will be redirected to either the Support chat or FAQ screen.
                     </p>
-                    <p class="text-sm font-[Causten-Regular] text-white">On back icon, user will land on 02_My Profile screen.</p>
+                    <p class="text-sm font-[Causten-Regular] text-white">On back icon, user will land on 02_My Profile
+                        screen.</p>
 
-                    <p class="text-sm font-[Causten-Regular] text-white"> <span class="font-bold">Configurable: No</span></p>
+                    <p class="text-sm font-[Causten-Regular] text-white"> <span class="font-bold">Configurable: No</span>
+                    </p>
 
-                    <p class="text-sm font-[Causten-Regular] text-white"> <span class="font-bold">Market variance: Yes</span></p>
+                    <p class="text-sm font-[Causten-Regular] text-white"> <span class="font-bold">Market variance:
+                            Yes</span></p>
 
-                    <p class="text-sm font-[Causten-Regular] text-white">When chat functionalities aren’t advanced enough to support the user, tapping on ‘Help’ will redirect the user to the FAQ screen. </p>
+                    <p class="text-sm font-[Causten-Regular] text-white">When chat functionalities aren’t advanced enough
+                        to support the user, tapping on ‘Help’ will redirect the user to the FAQ screen. </p>
                 </div>
             </div>
 
@@ -378,14 +395,18 @@
             </div>
 
             <div class="flex md:w-1/3 flex-col">
-                <div class="bg-[#DB0011] rounded-lg pl-4 pr-10 py-4 text-white" data-aos="fade-up" data-aos-duration="1000">03_About Me</div>
+                <div class="bg-[#DB0011] rounded-lg pl-4 pr-10 py-4 text-white" data-aos="fade-up"
+                    data-aos-duration="1000">03_About Me</div>
 
-                <img class="py-20 w-full" data-aos="fade-up" data-aos-duration="1000" src="{{ asset('images/skeleton.png') }}">
+                <img class="py-20 w-full" data-aos="fade-up" data-aos-duration="1000"
+                    src="{{ asset('images/skeleton.png') }}">
 
-                <div class="border border-[#D9D9D9] rounded-lg p-5 flex flex-col gap-2" data-aos="fade-up" data-aos-duration="1000">
+                <div class="border border-[#D9D9D9] rounded-lg p-5 flex flex-col gap-2" data-aos="fade-up"
+                    data-aos-duration="1000">
                     <h1 class="text-white text-xl font-base">03.01_Loading Screen</h1>
                     <p class="text-xs text-white">Displayed when the personal details are loading.</p>
-                    <p class="text-xs text-white">The skeleton loader will disappear as soon as the relevant tab is loaded.</p>
+                    <p class="text-xs text-white">The skeleton loader will disappear as soon as the relevant tab is loaded.
+                    </p>
                     <p class="font-semibold text-[#DB0011] text-xs">Please note motion TBD.</p>
                 </div>
 

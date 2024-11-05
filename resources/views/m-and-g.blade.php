@@ -1,15 +1,17 @@
 @extends('layouts.app')
 
 @section('content')
-    <section class="w-full md:h-[730px] relative md:pl-48 pb-20 pl-5 z-50"
+    <section class="w-full 2xl:h-[800px] md:h-[730px] relative md:pl-48 pb-20 pl-5 z-50"
         style="background: url('{{ asset('images/m&g-bg.png') }}'); background-position: center center;  ">
-        <a href="/" class="flex pt-20 items-center gap-3">
-            <img src="{{ asset('images/back-arrow.svg') }}" alt="">
-            <p class="text-white font-medium text-xl">Back</p>
+        <a href="/" class="flex relative z-[100] pt-20 items-center gap-3 group">
+            <img src="{{ asset('images/back-arrow.svg') }}" alt=""
+                class="transition-transform duration-300 group-hover:-translate-x-1">
+            <p class="text-white font-medium text-xl transition-opacity duration-300 group-hover:opacity-80">Back</p>
         </a>
         <div class="flex md:flex-row flex-col w-full">
             <div class="z-[1000] md:w-1/3 mt-20 flex-wrap">
-                <h1 class="text-white z-[1000] font-semibold text-4xl md:mb-12 mb-6 font-[Inter]" data-aos="fade-up">M&G</h1>
+                <h1 class="text-white z-[1000] font-semibold text-4xl md:mb-12 mb-6 font-[Inter]" data-aos="fade-up">M&G
+                </h1>
 
                 <div class="flex md:flex-col flex-row flex-wrap">
 
@@ -35,7 +37,7 @@
                 </div>
             </div>
 
-            <div class="md:w-2/3">
+            <div class="2xl:w-[56%] md:w-2/3 absolute right-0">
                 <img src="{{ asset('images/mac.png') }}" class="w-fit md:-mt-16 mt-10">
             </div>
 
@@ -162,15 +164,15 @@
         </div>
 
         <div class="flex flex-col items-center justify-center w-full py-20">
-            <div class="flex md:flex-row flex-col gap-5">
-                <img src="{{ asset('images/customer.png') }}" data-aos="fade-up" data-aos-delay="200" class="md:w-1/2"
-                    alt="">
-                <img src="{{ asset('images/advisor.png') }}" data-aos="fade-up" data-aos-delay="400" class="md:w-1/2"
-                    alt="">
+            <div class="flex md:flex-row flex-col items-center justify-center gap-5">
+                <img src="{{ asset('images/customer.png') }}" data-aos="fade-up" data-aos-delay="200"
+                    class="2xl:w-[40%] md:w-1/2" alt="">
+                <img src="{{ asset('images/advisor.png') }}" data-aos="fade-up" data-aos-delay="400"
+                    class="2xl:w-[40%] md:w-1/2" alt="">
             </div>
             <div class="flex justify-center md:-mt-10 mt-5">
-                <img src="{{ asset('images/m-and-g.png') }}" data-aos="fade-up" data-aos-delay="600" class="md:w-1/2"
-                    alt="">
+                <img src="{{ asset('images/m-and-g.png') }}" data-aos="fade-up" data-aos-delay="600"
+                    class="2xl:w-[40%] md:w-1/2" alt="">
             </div>
         </div>
 
@@ -195,8 +197,8 @@
             <div class="flex gap-20 items-start md:ml-28 pl-16 md:mt-10">
                 <img src="{{ asset('images/Union.png') }}" data-aos="fade-up" data-aos-delay="150"
                     class="w-48 hidden md:block" alt="">
-                <img src="{{ asset('images/inefficiency.png') }}" data-aos="fade-up" data-aos-delay="200" class="md:w-[600px]"
-                    alt="">
+                <img src="{{ asset('images/inefficiency.png') }}" data-aos="fade-up" data-aos-delay="200"
+                    class="md:w-[600px]" alt="">
             </div>
 
             <div class="flex gap-16 md:ml-28 pr-16 md:mt-10 items-end">
@@ -284,12 +286,14 @@
 
         <div class="bg-[#212121] md:p-12 p-5 rounded-3xl" data-aos="fade-up" data-aos-delay="300">
             <div class="flex md:flex-row flex-col gap-4">
-                <img data-aos="fade-up" src="{{ asset('images/Customer Landing.png') }}" class="md:w-1/2" alt="">
+                <img data-aos="fade-up" src="{{ asset('images/Customer Landing.png') }}" class="md:w-1/2"
+                    alt="">
                 <img data-aos="fade-up" src="{{ asset('images/Money out - digital - combined withdrawals.png') }}"
                     class="md:w-1/2" alt="">
             </div>
             <div class="flex md:flex-row flex-col gap-4 mt-4">
-                <img data-aos="fade-up" src="{{ asset('images/Money out - paper.png') }}" class="md:w-1/2" alt="">
+                <img data-aos="fade-up" src="{{ asset('images/Money out - paper.png') }}" class="md:w-1/2"
+                    alt="">
                 <img data-aos="fade-up" src="{{ asset('images/Money out - digital - combined withdrawals (1).png') }}"
                     class="md:w-1/2" alt="">
             </div>
@@ -301,45 +305,48 @@
             <h1 class="text-[#fff] text-2xl font-semibold text-center md:text-left font-[Inter] mb-8" data-aos="fade-up"
                 data-aos-duration="1000">UI Design
             </h1>
-
-            <img src="{{ asset('images/MacBook Pro and iPhone 15 Pro Mockup.png') }}" data-aos="fade-up" data-aos-delay="100"
-                alt="">
-
+            <div class="flex items-center justify-center">
+                <img class="w-[70%]" src="{{ asset('images/MacBook Pro and iPhone 15 Pro Mockup.png') }}" class=""
+                    data-aos="fade-up" data-aos-delay="100" alt="">
+            </div>
             <h1 class="text-[#fff] mt-20 text-sm font-semibold text-right font-[Inter] mb-3" data-aos="fade-up"
                 data-aos-duration="1000">Components
             </h1>
-
-            <img src="{{ asset('images/components.png') }}" data-aos="fade-up" data-aos-delay="200" class="mt-4 mb-20"
-                alt="">
-
+            <div class="flex items-center justify-center">
+                <img class="w-[80%]" src="{{ asset('images/components.png') }}" data-aos="fade-up" data-aos-delay="200"
+                    class="mt-4 mb-20" alt="">
+            </div>
             <h1 class="text-[#fff] text-sm font-semibold text-right font-[Inter] mb-3" data-aos="fade-up"
                 data-aos-duration="1000">Website
             </h1>
 
-            <img src="{{ asset('images/MacBook Pro Screen.png') }}" data-aos="fade-up" data-aos-delay="300" class="mt-4"
-                alt="">
+            <div class="flex flex-col items-center justify-center">
 
-            <img src="{{ asset('images/Adviser Landing v1 1.png') }}" data-aos="fade-up" data-aos-delay="400" class="mt-8"
-                alt="">
+                <img class="w-[80%]" src="{{ asset('images/MacBook Pro Screen.png') }}" data-aos="fade-up"
+                    data-aos-delay="300" class="mt-4" alt="">
 
-            <img src="{{ asset('images/Customer_Dashboard.png') }}" data-aos="fade-up" data-aos-delay="500" class="mt-8"
-                alt="">
+                <img class="w-[80%]" src="{{ asset('images/Adviser Landing v1 1.png') }}" data-aos="fade-up"
+                    data-aos-delay="400" class="mt-8" alt="">
 
+                <img class="w-[80%]" src="{{ asset('images/Customer_Dashboard.png') }}" data-aos="fade-up"
+                    data-aos-delay="500" class="mt-8" alt="">
+            </div>
             <h1 class="text-[#fff] text-sm font-semibold mt-20 text-right font-[Inter] mb-3" data-aos="fade-up"
                 data-aos-duration="1000">Mobile
             </h1>
 
-            <div class="flex md:flex-row flex-col gap-20 flex-wrap justify-between">
-                <img src="{{ asset('images/home.png') }}" data-aos="fade-up" data-aos-delay="600" class="w-[375px] md:pr-20"
-                    alt="">
+            <div class="flex md:flex-row flex-col gap-20 flex-wrap justify-between px-20">
+                <img src="{{ asset('images/home.png') }}" data-aos="fade-up" data-aos-delay="600"
+                    class="2xl:w-[300px] md:w-[375px] md:pr-20" alt="">
                 <img src="{{ asset('images/ActivePoruduct_Popup.png') }}" data-aos="fade-up" data-aos-delay="700"
-                    class="w-[375px] md:pl-20" alt="">
+                    class="2xl:w-[300px] md:w-[375px] md:pl-20" alt="">
                 <img src="{{ asset('images/ActivePoruduct_Popup (1).png') }}" data-aos="fade-up" data-aos-delay="800"
-                    class="w-[375px] md:pr-20 md:mt-12" alt="">
-                <img src="{{ asset('images/Help&Support_Popup.png') }}" class="w-[375px] md:pl-20 md:mt-12" data-aos="fade-up"
-                    data-aos-delay="900" alt="">
+                    class="2xl:w-[300px] md:w-[375px] md:pr-20 md:mt-12" alt="">
+                <img src="{{ asset('images/Help&Support_Popup.png') }}"
+                    class="2xl:w-[300px] md:w-[375px] md:pl-20 md:mt-12" data-aos="fade-up" data-aos-delay="900"
+                    alt="">
             </div>
-            <div class="flex justify-end">
+            <div class="flex justify-end px-20">
                 <img src="{{ asset('images/Help&Support_Popup.png') }}" data-aos="fade-up" data-aos-delay="1000"
                     class="w-[375px] md:pl-20 md:mt-12 mt-20" alt="">
             </div>

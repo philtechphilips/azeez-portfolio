@@ -2,9 +2,10 @@
 
 @section('content')
     <section class="w-full h-[736px] relative md:px-48 px-5 z-50">
-        <a href="/" class="flex relative pt-20 z-[1000] items-center gap-3">
-            <img src="{{ asset("images/back-arrow.svg") }}" alt="">
-            <p class="text-white font-medium text-xl">Back</p>
+        <a href="/" class="flex relative z-[100] pt-20 items-center gap-3 group">
+            <img src="{{ asset('images/back-arrow.svg') }}" alt=""
+                class="transition-transform duration-300 group-hover:-translate-x-1">
+            <p class="text-white font-medium text-xl transition-opacity duration-300 group-hover:opacity-80">Back</p>
         </a>
 
         <div class="absolute top-48 right-0 md:left-48 left-5 z-[1000]">
@@ -32,8 +33,10 @@
         </div>
 
 
-        <img class="absolute top-0 right-0 left-0  w-full h-[736px] z-0"  src="{{ asset('images/post-office-bg.png') }}">
-        <div class="w-full absolute top-0 right-0 left-0 h-[736px] opacity-90" style="background-image: linear-gradient(to right bottom, #010413, #080a1c, #0d1024, #10142c, #141735);');"></div>
+        <img class="absolute top-0 right-0 left-0  w-full h-[736px] z-0" src="{{ asset('images/post-office-bg.png') }}">
+        <div class="w-full absolute top-0 right-0 left-0 h-[736px] opacity-90"
+            style="background-image: linear-gradient(to right bottom, #010413, #080a1c, #0d1024, #10142c, #141735);');">
+        </div>
     </section>
 
 
@@ -170,9 +173,12 @@
 
     <section
         class="md:px-48 px-5 bg-[#f5f5f5] md:py-20 py-10 flex items-center md:flex-row  gap-4 flex-col justify-center">
-        <img src="{{ asset('images/image 6.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up" data-aos-duration="1000">
-        <img src="{{ asset('images/image 7.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up" data-aos-duration="1000">
-        <img src="{{ asset('images/image 8.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up" data-aos-duration="1000">
+        <img src="{{ asset('images/image 6.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up"
+            data-aos-duration="1000">
+        <img src="{{ asset('images/image 7.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up"
+            data-aos-duration="1000">
+        <img src="{{ asset('images/image 8.png') }}" class="w-[258px] h-[352px]" data-aos="fade-up"
+            data-aos-duration="1000">
     </section>
 
     <section class="w-full flex flex-col items-center justify-center">
@@ -239,7 +245,8 @@
     </section>
 
     <section class="md:px-48 px-5 bg-[#f5f5f5] md:py-20 py-10">
-        <img data-aos="fade-up" data-aos-duration="1000" src="{{ asset('images/Screenshot 2024-02-12 at 21.50 1.png') }}">
+        <img data-aos="fade-up" data-aos-duration="1000"
+            src="{{ asset('images/Screenshot 2024-02-12 at 21.50 1.png') }}">
     </section>
 
     <section class="w-full flex flex-col items-center justify-center">
